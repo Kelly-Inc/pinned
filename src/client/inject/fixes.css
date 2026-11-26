@@ -1,0 +1,27 @@
+/* Branding: our logo in place of the Pinterest logo. */
+[data-test-id="pinterest-logo-home-button"] svg,
+[data-test-id="unauth-header-logo"] svg { visibility: hidden; }
+[data-test-id="pinterest-logo-home-button"] div[style*="translate(-50%"] { display: none !important; }
+[data-test-id="pinterest-logo-home-button"] a,
+[data-test-id="unauth-header-logo"] a {
+  background: url(/assets/logo-64.png) center / 32px 32px no-repeat !important;
+}
+
+/* Pin closeup sizes itself from its content; a sparse local pin (no comments
+   or related modules) would collapse and crush the image. Give it the normal
+   desktop card width with the image at its natural size. */
+@media (min-width: 900px) {
+  [data-test-id="closeup-lego-container"] { width: min(1016px, calc(100vw - 140px)) !important; margin: 0 auto; }
+  [data-test-id="closeup-lego-container"] div:has([data-test-id="closeup-body-style"]),
+  [data-test-id="closeup-body-style"],
+  [data-test-id="closeup-body-style"] > div,
+  [data-test-id="closeup-body-style"] > div > div { flex: 1 1 auto !important; width: 100% !important; }
+  [data-test-id="closeup-media-container"],
+  [data-test-id="closeup-media-container"] div:has([data-test-id="visual-content-container"]),
+  [data-test-id="visual-content-container"],
+  [data-test-id="closeup-visual-container"] { flex: 0 0 auto !important; width: fit-content !important; max-width: 50vw !important; }
+  [data-test-id="description-content-container"] { flex: 1 1 auto !important; max-width: none !important; min-width: 0; }
+  [data-test-id="description-content-container"] > div,
+  [data-test-id="closeup-body-sticky-content"],
+  [data-test-id="closeupActionBar"] { width: 100% !important; max-width: none !important; }
+}

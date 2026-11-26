@@ -1,0 +1,12 @@
+services:
+  pinned:
+    build: .
+    container_name: pinned
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - pinned-data:/data
+
+volumes:
+  pinned-data:

@@ -5,8 +5,12 @@
   "description": "Pinned: a self-hosted Pinterest alternative. The Pinterest web client running against your own Node + SQLite backend.",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test --test-concurrency=1 tests/api/*.test.js",
+    "test:e2e": "node --disable-warning=ExperimentalWarning --test tests/e2e/*.test.js",
+    "routes": "node --disable-warning=ExperimentalWarning tools/routes.js",
+    "check": "node tools/check-imports.js src"
   },
   "engines": {
     "node": ">=22.5.0"
