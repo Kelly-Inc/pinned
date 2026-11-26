@@ -5,6 +5,22 @@ on it safely, and the non-obvious behavior of the vendored client that took
 time to discover. Use [README.md](README.md) for users and
 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the code is laid out.
 
+## Status at handoff
+
+Feature work is paused at the user's request. See [CHANGES.md](CHANGES.md)
+for shipped commits, deployment, and verification. The live server is running
+`89df750` with migration `0009_conversations`. Messaging tests exercise local
+accounts only. Contact requests and board join requests currently return empty
+lists so the inbox renders while those features remain open.
+
+The full Chromium suite for messaging was still running at handoff. Read
+`/tmp/messaging-last-full` for its final summary. The earlier 14-test pass
+predates messaging. The API suite currently contains 63 tests.
+
+The board's Create menu exposes a Section item. A throwaway browser probe
+reached that action. Section creation, listing, and pin assignment still need
+their client contracts traced and verified.
+
 ## What this is
 
 Pinned is a self-hosted Pinterest alternative. It serves **Pinterest's real web
