@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[64611],{186672(n,o,r){r.r(o);var e=r(651953),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},651953(n,o,r){n.exports={locale:"kk-KZ",i18nStrings:void 0,catalogSource:void 0,plural:r(508959)}},508959(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-kk_KZ-LocaleDataLoader-965be565220017eb.mjs.map

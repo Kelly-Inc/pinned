@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[31063],{413344(n,o,r){r.r(o);var e=r(530945),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},530945(n,o,r){n.exports={locale:"vi-VN",i18nStrings:void 0,catalogSource:void 0,plural:r(236591)}},236591(n){n.exports=function(n){return 0}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-vi_VN-LocaleDataLoader-c014a8ff35fc4530.mjs.map

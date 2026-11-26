@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[19052],{430847(n,o,r){r.r(o);var e=r(673778),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},673778(n,o,r){n.exports={locale:"bg-BG",i18nStrings:void 0,catalogSource:void 0,plural:r(541304)}},541304(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-bg_BG-LocaleDataLoader-bb709e19fa5d73a3.mjs.map

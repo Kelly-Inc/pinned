@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[26655],{44636(n,o,r){r.r(o);var e=r(99277),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},99277(n,o,r){n.exports={locale:"nb-NO",i18nStrings:void 0,catalogSource:void 0,plural:r(738531)}},738531(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-nb_NO-LocaleDataLoader-f2c6ad3080543554.mjs.map

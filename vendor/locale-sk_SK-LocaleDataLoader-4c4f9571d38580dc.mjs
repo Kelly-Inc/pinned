@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[6594],{997017(n,o,r){r.r(o);var e=r(106484),s=r.n(e);function t({children:n}){return n(s())}r.d(o,{default:()=>t})},106484(n,o,r){n.exports={locale:"sk-SK",i18nStrings:void 0,catalogSource:void 0,plural:r(102870)}},102870(n){n.exports=function(n){return+(1==n)?0:n>=2&&n<=4?1:2}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-sk_SK-LocaleDataLoader-4c4f9571d38580dc.mjs.map

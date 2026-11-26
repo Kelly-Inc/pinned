@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[41852],{636983(n,o,r){r.r(o);var e=r(797050),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},797050(n,o,r){n.exports={locale:"hi-IN",i18nStrings:void 0,catalogSource:void 0,plural:r(622848)}},622848(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-hi_IN-LocaleDataLoader-5f457be12006a434.mjs.map

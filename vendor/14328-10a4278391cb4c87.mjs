@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[14328],{117099(e,r,s){s.r(r);let t=[];s.d(r,{},{default:(e,r)=>{if(e=e||t,"FETCH_COMPLETE"===r.type){let{data:s}=r.payload.response.resource_response;return s?[...s.results]:e}if("FETCH_MORE_COMPLETE"===r.type){let{data:s}=r.payload.response.resource_response;return s?[...e,...s.results]:e}if("NATIVE_ENGAGEMENT_HIDDEN_FOR_USER"===r.type){let{payload:{userId:s}}=r;return e.filter(e=>e.user.id!==s)}return e}})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/14328-10a4278391cb4c87.mjs.map

@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[49920],{138983(n,o,r){r.r(o);var e=r(287818),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},287818(n,o,r){n.exports={locale:"ky-KG",i18nStrings:void 0,catalogSource:void 0,plural:r(160976)}},160976(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-ky_KG-LocaleDataLoader-2078cc66c4aa4fc9.mjs.map

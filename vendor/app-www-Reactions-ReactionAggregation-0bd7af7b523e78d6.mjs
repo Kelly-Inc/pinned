@@ -1,0 +1,47 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[9020],{107365(e,t,l){l.d(t,{},{A:["userreaction.id","userreaction.reaction_type","userreaction.type","userreaction.user()","user.explicitly_followed_by_me","user.first_name","user.full_name","user.id","user.image_medium_url","user.is_private_profile","user.type","user.username","user.domain_verified","user.domain_url","user.avatar_color_index"]})},832270(e,t,l){let a=(0,l(923119).createContext)("u">typeof window?window:null);l.d(t,{},{A:a})},607980(e,t,l){var a=l(768540),i=l(923119),n=l(417487),o=l(430875),s=l(449440),r=l(733505),d=l(832270),c=l(184470),p=l(508446),u=l(493532);let h={width:"100vw",maxHeight:"100%",height:"100%",overflow:"auto",top:"0",left:"0",position:"fixed",transition:"transform 0.3s ease-out, visibility 0.5s",WebkitOverflowScrolling:"touch"},_={modalOpen:{__style:{...h}},modalClose:{__style:{...h,transform:"translate3d(0px, 100%, 0px)",visibility:"hidden"}}};function y({accessibilityModalLabel:e,allowClickAndDrag:t,children:l,isOpen:h}){(0,i.useEffect)(()=>{(0,a.A)("DeprecatedFullScreenModal","/app/www/DeprecatedFullScreenModal.tsx")},[]);let{setAppFocusState:g}=(0,i.use)(p.jN)??(0,p.EA)(),m=(0,i.useRef)(null),A=(0,i.useRef)("");return(0,i.useLayoutEffect)(()=>{if(h&&"u">typeof document&&document.body)return A.current=document.body.style.overflow,document.body.style.overflow="hidden",()=>{document.body&&(document.body.style.overflow=A.current)}},[h]),(0,i.useEffect)(()=>(h&&(r.A.pause(),g(!1)),()=>{h&&(r.A.resume(),g(!0))}),[h,g]),(0,u.Y)(c.A,{allowClickAndDrag:t,children:(0,u.Y)(n.A,{zIndex:s.nH,children:(0,u.Y)(o.A,{"aria-label":e,display:"inlineBlock",role:"dialog",children:(0,u.Y)(o.A,{ref:m,color:"default",dangerouslySetInlineStyle:{__style:h?_.modalOpen.__style:_.modalClose.__style},children:(0,u.Y)(d.A,{value:m,children:l})})})})})}l.d(t,{A:()=>y})},10571(e,t,l){l.r(t),l.d(t,{default:()=>C});var a=l(768540);let i={argumentDefinitions:[],kind:"Fragment",metadata:null,name:"ReactionAggregation_pin",selections:[{args:null,kind:"FragmentSpread",name:"UserList_pin"}],type:"Pin",abstractKey:null};i.hash="013b54f30e9bd3980f16363ba57588dd";var n=l(923119),o=l(223327),s=l(430875),r=l(550407),d=l(516001),c=l(238429),p=l(574120),u=l(154412),h=l(182072),_=l(107048),y=l(783797),g=l(680102),m=l(607980),A=l(870126);let f={argumentDefinitions:[],kind:"Fragment",metadata:null,name:"UserList_pin",selections:[{alias:null,args:null,kind:"ScalarField",name:"entityId",storageKey:null}],type:"Pin",abstractKey:null};f.hash="4276b7cf10520da613a1ded07917bc39";var b=l(48715),w=l(107365),k=l(773704),x=l(94468),v=l(790321),Y=l(228513),S=l(493532);let z=[1,2,3,4,5,6,7,8,9,10];function R({user:e,reactionType:t}){(0,n.useEffect)(()=>{(0,a.A)("UserRep","/app/www/Reactions/UserRep.tsx")},[]);let l=(0,_.A)(),{first_name:i,full_name:o,image_medium_url:c,is_private_profile:p,username:u,domain_url:h,avatar_color_index:y,domain_verified:g}=e,m=t&&A.UK[t]?A.UK[t]:"",{staticAsset:f}=(0,A.N9)({i18n:l,type:m}),b=p?i:o;return(0,S.FD)(s.A,{display:"flex",justifyContent:"between",paddingY:2,children:[(0,S.FD)(d.A,{alignItems:"stretch",justifyContent:"start",children:[(0,S.Y)(s.A,{padding:2,children:(0,S.Y)(x.A,{href:(0,Y.A)("/:username/",{username:u}),rounding:"circle",tapStyle:"compress",children:(0,S.Y)(v.eu,{color:z.some(e=>e===y)?y:void 0,name:b??"",size:"sm",src:c??"",verified:g})})}),(0,S.Y)(s.A,{alignItems:"center",alignSelf:"stretch",display:"flex",paddingX:1,children:(0,S.Y)(x.A,{href:(0,Y.A)("/:username/",{username:u}),rounding:200,tapStyle:"compress",children:h&&g?(0,S.FD)(d.A,{alignItems:"stretch",direction:"column",justifyContent:"start",children:[(0,S.Y)(r.A,{weight:"bold",children:b}),(0,S.Y)(r.A,{size:"100",children:h})]}):(0,S.Y)(r.A,{weight:"bold",children:b})})})]}),(0,S.Y)(s.A,{padding:2,children:(0,S.Y)(s.A,{dangerouslySetInlineStyle:{__style:{backgroundImage:`url(${f})`,backgroundRepeat:"no-repeat",backgroundPosition:"center",backgroundSize:"cover"}},height:32,width:32})})]})}function I({pinKey:e}){(0,n.useEffect)(()=>{(0,a.A)("UserList","/app/www/Reactions/UserList.tsx")},[]);let t=(0,_.A)(),l=(0,h.A)(f,e),{data:i,isFetching:o,fetchMore:r}=(0,k.A)({url:"/v3/pins/{pin}/reactions/",params:{pin:l?.entityId??"",fields:w.A.join(",")}});return i&&i.length>0?(o||r(),(0,S.Y)(s.A,{paddingX:2,children:i.map(e=>e.user?(0,S.Y)(R,{reactionType:null==e.reaction_type?void 0:A.UK[e.reaction_type],user:e.user},e.id):null)})):(0,S.Y)(b.A,{accessibilityLabel:t._('Loading user list', 'Accessibility lable for user list spinner', 'Accessibility lable for user list spinner'),show:!0})}let C=e=>{(0,n.useEffect)(()=>{(0,a.A)("ReactionAggregation","/app/www/Reactions/ReactionAggregation.tsx")},[]);let t=(0,_.A)(),{logContextEvent:l}=(0,n.use)(u.j),[f,b]=(0,n.useState)(!1),w=(0,g.Ay)(),{userId:k}=(0,o.d4)(e=>e.session),x=()=>{b(!f),l({event_type:13,view_type:266,view_parameter:3312})},{disableModal:v=!1,pinKey:Y,reactionCounts:z,textColor:R="default",textSize:C="100",textWeight:P="normal"}=e,F=(0,h.A)(i,Y),D=z?(0,y.MI)(z):null,U=z?(0,y.nc)(z):0,L=!!D&&D.length>0&&D.map(e=>{let l=A.UK[e],{gridAsset:a}=(0,A.N9)({i18n:t,type:l});return(0,S.Y)(s.A,{marginEnd:.5,children:(0,S.Y)(s.A,{dangerouslySetInlineStyle:{__style:{backgroundImage:`url(${a})`,backgroundPosiiton:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover"}},height:18,width:18})},e)}),K=!!L&&(0,S.FD)(s.A,{alignItems:"center","data-test-id":"Reaction",display:"flex",justifyContent:"center",children:[L,(0,S.Y)(s.A,{paddingX:1,children:(0,S.Y)(r.A,{color:R,size:C,weight:P,children:U})})]}),j=(0,S.FD)(d.A,{alignItems:"center",flex:"grow",justifyContent:"start",children:[(0,S.Y)(s.A,{alignItems:"center",display:"flex",padding:1,children:(0,S.Y)(c.A,{accessibilityLabel:t._('Close', 'Close button on modal', 'Close button on modal'),icon:"close",iconColor:"subtle",onClick:x,size:"md"})}),(0,S.Y)(s.A,{alignItems:"center",display:"flex",flex:"grow",justifyContent:"center",marginEnd:12,children:(0,S.Y)(r.A,{align:"center",size:"400",weight:"bold",children:K})})]});return!!L&&!!K&&(0,S.FD)(s.A,{marginTop:2*("phone"===w),children:[(0,S.Y)(p.A,{disabled:v,onTap:x,children:K}),f&&(0,S.FD)(m.A,{accessibilityModalLabel:t._('User reactions', 'duplo.reactions.modal.label', 'Modal accessibility label for user reactions'),isOpen:f,children:[j,(0,S.Y)(I,{pinKey:F,userId:k})]})]})}},870126(e,t,l){var a=l(958548),i=l(487555),n=l(873713),o=l(986466),s=l(307437),r=l(58667),d=l(282222),c=l(554081),p=l(697695),u=l(33702),h=l(936981),_=l(872590),y=l(127032),g=l(771317),m=l(37742),A=l(122968);l.d(t,{},{Kk:{goodIdea:"7",love:"1",thanks:"13",wow:"11",haha:"5"},LI:["goodIdea","love","thanks","wow","haha"],N9:({i18n:e,type:t})=>{let l={default:{staticAsset:u},goodIdea:{backgroundColor:"yellow-caramellow-50",staticAsset:n,animatedAsset:a,gridAsset:i,label:e._('Good idea', 'Reaction label to tell a creator that their pin is a good idea', 'Reaction label to tell a creator that their pin is a good idea'),htmlStyle:`
+      @keyframes play90 {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: -7380px 0px;
+        }
+      }
+    `,animationStyle:"play90 3000ms steps(90) infinite forwards",type:7},haha:{backgroundColor:"purple-mysticool-100",staticAsset:r,animatedAsset:o,gridAsset:s,label:e._('Haha', 'Reaction label to tell a creator that the pinner laughed because of their pin', 'Reaction label to tell a creator that the pinner laughed because of their pin'),htmlStyle:`
+      @keyframes play60 {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: -4920px 0px;
+        }
+      }
+    `,animationStyle:"play60 2000ms steps(60) infinite forwards",type:5},love:{backgroundColor:"red-pushpin-100",staticAsset:p,animatedAsset:d,gridAsset:c,label:e._('Love', 'Reaction label to tell a creator that the pinner loved their pin', 'Reaction label to tell a creator that the pinner loved their pin'),htmlStyle:`
+      @keyframes play90 {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: -7380px 0px;
+        }
+      }
+    `,animationStyle:"play90 3000ms steps(90) infinite forwards",type:1},thanks:{backgroundColor:"teal-spabattical-100",staticAsset:y,animatedAsset:h,gridAsset:_,label:e._('Thanks', 'Reaction label to tell a creator thank you', 'Reaction label to tell a creator thank you'),htmlStyle:`
+      @keyframes play60 {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: -4920px 0px;
+        }
+      }
+    `,animationStyle:"play60 2000ms steps(60) infinite forwards",type:13},wow:{backgroundColor:"orange-firetini-50",staticAsset:A,animatedAsset:g,gridAsset:m,label:e._('Wow', 'Reaction label to tell a creator that the pinner was wowed by their pin', 'Reaction label to tell a creator that the pinner was wowed by their pin'),htmlStyle:`
+      @keyframes play90 {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: -7380px 0px;
+        }
+      }
+    `,animationStyle:"play90 3000ms steps(90) infinite forwards",type:11}};return t&&l[t]?l[t]:l.default},UK:{7:"goodIdea",1:"love",13:"thanks",11:"wow",5:"haha"}})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/app-www-Reactions-ReactionAggregation-0bd7af7b523e78d6.mjs.map

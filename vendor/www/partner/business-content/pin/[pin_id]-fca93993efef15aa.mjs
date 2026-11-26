@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[94439],{76665(n,_,o){let e=o(71992).A;"u">typeof window&&(window.__PWS_LOADED_HANDLERS__=window.__PWS_LOADED_HANDLERS__||[]).push(["www/partner/business-content/pin/[pin_id]",function(){return e}])}},function(n){n.O(0,[13982,31364,5325,78180,91796],function(){return n(n.s=76665)}),n.O()}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/www/partner/business-content/pin/[pin_id]-fca93993efef15aa.mjs.map

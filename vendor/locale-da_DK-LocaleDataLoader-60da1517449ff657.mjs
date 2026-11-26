@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[68962],{81513(n,o,r){r.r(o);var e=r(246244),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},246244(n,o,r){n.exports={locale:"da-DK",i18nStrings:void 0,catalogSource:void 0,plural:r(936966)}},936966(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-da_DK-LocaleDataLoader-60da1517449ff657.mjs.map

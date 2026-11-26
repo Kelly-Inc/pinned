@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[16130],{40912(n,o,_){let e=_(169859).A;"u">typeof window&&(window.__PWS_LOADED_HANDLERS__=window.__PWS_LOADED_HANDLERS__||[]).push(["www/about/trademark/[claimType]",function(){return e}])}},function(n){n.O(0,[13982,31884,38592,5325,71543,78180,80490,84523,85099,91796],function(){return n(n.s=40912)}),n.O()}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/www/about/trademark/[claimType]-bdd6fcd991613bfe.mjs.map

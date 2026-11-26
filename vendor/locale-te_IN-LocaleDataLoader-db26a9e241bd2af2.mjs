@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[71596],{799871(n,o,r){r.r(o);var e=r(407154),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},407154(n,o,r){n.exports={locale:"te-IN",i18nStrings:void 0,catalogSource:void 0,plural:r(801784)}},801784(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-te_IN-LocaleDataLoader-db26a9e241bd2af2.mjs.map

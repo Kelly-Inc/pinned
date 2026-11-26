@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[78892],{232516(n,o,r){r.r(o);var e=r(906245),s=r.n(e);function t({children:n}){return n(s())}r.d(o,{default:()=>t})},906245(n,o,r){n.exports={locale:"sv-SE",i18nStrings:void 0,catalogSource:void 0,plural:r(51099)}},51099(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-sv_SE-LocaleDataLoader-d37dfc9507e69dae.mjs.map

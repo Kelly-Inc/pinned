@@ -1,0 +1,2390 @@
+{
+  "ActionsDropdown_activeCampaignsQuery": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "aad7be14c0f29876fd7bba5017357fb5a92749336283b2ffe0bb4268abf94bc4"
+  },
+  "AllContentItemsLoader_Pagination_Refetch_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "b0d24881c4b734340687e899f94df2508b379fe9fcd58bf7a179fe922833cf76"
+  },
+  "AllContentItemsLoader_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "096974411257d3cebfe64fed029654b0ca907d3ef356cb5f81eb569eafe41d1b"
+  },
+  "AllShareOptionsUtility_CreateExternalInviteGraphQLQuery": {
+    "files": [
+      "vendor/10494-b4dbe4c04879692a.mjs",
+      "vendor/16096-0ef6e04fda51f460.mjs",
+      "vendor/18762-eaf196ed8329edf6.mjs",
+      "vendor/41143-b727888d508a5614.mjs",
+      "vendor/42719-9e0f06b8d82f7301.mjs",
+      "vendor/54624-f3e27f48545535d9.mjs",
+      "vendor/59429-c88df3aefa10d295.mjs",
+      "vendor/65100-81b9e4b44e4bc1a7.mjs",
+      "vendor/69072-f0b219d6604537fa.mjs",
+      "vendor/71334-2e24fa04ea49b221.mjs",
+      "vendor/78967-92df3001a9c7ede3.mjs",
+      "vendor/81599-f00b9ac24d154bd5.mjs",
+      "vendor/87481-1141f8199531d044.mjs",
+      "vendor/88113-51143ccdc9f50488.mjs",
+      "vendor/93715-a1b983dd4e781225.mjs",
+      "vendor/97730-c7a114cbaa1eac95.mjs",
+      "vendor/97957-53ee54a8d74c0a92.mjs",
+      "vendor/9862-5ee6a5e41b9f3ad5.mjs",
+      "vendor/FullHeightInboxDesktop-c5c1da867b278aa3.mjs",
+      "vendor/app-www-social-duplo-ShareMenu-8fee6e6d2efe314e.mjs",
+      "vendor/www/greeting-card/create-9c2f8a077f380e5e.mjs"
+    ],
+    "id": "6312848b4bb08588587683a04a42e4d0333e2e986fcab0cef4ed200786d3f5d9"
+  },
+  "AlreadyPinnedCheckQuery": {
+    "files": [
+      "vendor/64911-daee982b13984d1e.mjs",
+      "vendor/FirstPinCreateCommon-97fb7360f131bf90.mjs"
+    ],
+    "id": "8164ce172f09c1df2f2fa8451557067959f10a260968b77a5bc73371a2124eaf"
+  },
+  "ApiHistoryTable_Query": {
+    "files": [
+      "vendor/20004-838e2e9320964b8c.mjs",
+      "vendor/42445-b750e54be544e30d.mjs",
+      "vendor/97797-237a287a3eb1e795.mjs"
+    ],
+    "id": "6a8373bc077d1bce4f542244538d0bfbf1a6a7ccdf06ba47bf17512e92c01bc9"
+  },
+  "AspectRatioReportCatalogsQuery": {
+    "files": [
+      "vendor/OverlayCreateSideSheet-21d11faf739ea408.mjs"
+    ],
+    "id": "8696aba9bcffca470654c53a6e7d4857d9170a4269fcf9a1821c8527716f874c"
+  },
+  "AspectRatioReportImageRatioQuery": {
+    "files": [
+      "vendor/OverlayCreateSideSheet-21d11faf739ea408.mjs"
+    ],
+    "id": "525f51b0cb63705a9b8baa6528a2e9889308af5e66786193687c8922a105bb37"
+  },
+  "AspectRatioReportProductGroupsQuery": {
+    "files": [
+      "vendor/OverlayCreateSideSheet-21d11faf739ea408.mjs"
+    ],
+    "id": "4ac7faa1d5c65bcbcbe8c6cfe6d0e951d03e951a3fbf1380921c019d3c92147d"
+  },
+  "AssetManagementPageLayout_Query": {
+    "files": [
+      "vendor/31600-e6718ccd95cc2e44.mjs",
+      "vendor/3453-ef19b42c7c376159.mjs",
+      "vendor/53609-00f3ec20a9ddd50d.mjs"
+    ],
+    "id": "dabe1c08343d7f01d1867c8b5d70943d575b64c629d29826ab5a2e8ecbc5788c"
+  },
+  "AssetProfileDetailPage_CatalogsDiscovery_Query": {
+    "files": [
+      "vendor/28766-0ff775c343270687.mjs"
+    ],
+    "id": "87030ee57382283273e04256a984a296912001271278c9f90231bff26e158e57"
+  },
+  "AssetProfileDetailPage_Query": {
+    "files": [
+      "vendor/28766-0ff775c343270687.mjs"
+    ],
+    "id": "5d8c34f16ba4428610c33964aa2c44bf168ee192439547bb930590e576d42baa"
+  },
+  "AssetsExportsHistoryPage_Query": {
+    "files": [
+      "vendor/11900-a4dbcd01e06ec650.mjs"
+    ],
+    "id": "06ba2c644d7af7c08becb7ed6a0ccc917f0f3f8950c5e69056032e56945fbeba"
+  },
+  "AssignmentRulesTabContent_CreativeOverlays_AssignmentRules_Query": {
+    "files": [
+      "vendor/83209-ff92743498902523.mjs"
+    ],
+    "id": "323a4f7f314770f26fafd6669c2176f5e82b993fa78d43de38df5840a0be9c37"
+  },
+  "BulkHistoryExport_Query": {
+    "files": [
+      "vendor/35751-1add044f8830f6e9.mjs"
+    ],
+    "id": "6e7c342e11e969342d9a84a9a813e593230e563f6de9ddc2d8656c9778a85ffc"
+  },
+  "BulkHistoryImport_Query": {
+    "files": [
+      "vendor/35751-1add044f8830f6e9.mjs"
+    ],
+    "id": "89d75d8fde7f1585e33b0c0e6f38b23a28edb8188ed3b01fa16df68c2d4fd480"
+  },
+  "BulkImportHistoryTab_Query": {
+    "files": [
+      "vendor/3453-ef19b42c7c376159.mjs"
+    ],
+    "id": "aedca7335eca91a3cd1df6cabbc602a9013e140b543fa559c86c4e26ff24b5ea"
+  },
+  "BusinessHubPageUserSalesforceDataQuery": {
+    "files": [
+      "vendor/www/business/hub-84401988c16471cc.mjs"
+    ],
+    "id": "a42156d6bbda4921eb1537f3d0bcff573c677386a06a5078d95a0ced4ad30122"
+  },
+  "BusinessLocationsTab_Query": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "16337e36810db3a4a26e7e6751893322c5d2e3bfeedb88229be412e2b5c5dbd9"
+  },
+  "BusinessLocationsTab_Refetch_Query": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "57bad496e86802e021f0251d3def08d60d2166e5fd12337a37dd8d22affb62ed"
+  },
+  "CatalogDeletionModalsDeleteCatalogMutation": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "5fdfad9d3936f4188316290eeb35b320e8f3e5f1f03d2ed88339a6f71cce3d11"
+  },
+  "CatalogEditModalUpdateCatalogMutation": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "6d5fc6f977a9348c93bc4147e3ef3fce4a2cd136571e6b9897794d7f21134a8c"
+  },
+  "CatalogHealthSummaryIngestionTimelineQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "e796d40a7451d13992fca89e3fa901549d6bd7579e0158172816608cd2c5757c"
+  },
+  "CatalogName_BusinessContentHub_Query": {
+    "files": [
+      "vendor/32538-be6a9e74c5aa0906.mjs"
+    ],
+    "id": "07bfa5c60266494f7db84d6edcdaebe2b534124fb27e971a5bc065b439b5a76a"
+  },
+  "CatalogWidgetHooksQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs",
+      "vendor/www/business/hub-84401988c16471cc.mjs"
+    ],
+    "id": "24a4f7bd7f5dafd8ea10244cd88766724f5fa0dfcbf17d1567c17184ab4c114c"
+  },
+  "CatalogsV3PageQuery": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "c14ca59c7210929ffa49f88853cb4a16992fe341ada48485b58445fabdca8354"
+  },
+  "ChooseSupplementalFeedTypePageQuery": {
+    "files": [
+      "vendor/81336-520268cdaa3024bc.mjs"
+    ],
+    "id": "ffa9fe8b4eb0d87f096b7b2cf1e73cd30ab387479cb4b12983850bf3a7730f07"
+  },
+  "CloseupDetailQuery": {
+    "files": [
+      "vendor/91817-39fb595e077863db.mjs"
+    ],
+    "id": "4cbc63338637fbb5a42cbb1509d57191e034b4091915946401a85bb8987e640c"
+  },
+  "CloseupPageQuery": {
+    "files": [
+      "vendor/91817-39fb595e077863db.mjs"
+    ],
+    "id": "4b1b1b5c0de8d6466166acf4e86ac8198a2f7f7729c0ec4fe52843d61e689eba"
+  },
+  "CloseupRelatedModulesFeedPaginationQuery": {
+    "files": [
+      "vendor/66597-f86561c0386c53d8.mjs"
+    ],
+    "id": "bd0f5a4de9386ecd71b7a30ebbec5666ba9ce8082ebe80367994cd36d290210f"
+  },
+  "CloseupRelatedModulesFeedQuery": {
+    "files": [
+      "vendor/72031-070d51c55c7f4663.mjs"
+    ],
+    "id": "e44f2008cdfdb005259a790e7bc4bd91b6cd15103550886caa9f7b604c872851"
+  },
+  "CloseupShufflePinQuery": {
+    "files": [
+      "vendor/app-common-react-components-auth-desktop-web-closeup-CloseupShuffle-CloseupShuffle-16e05b6290227287.mjs"
+    ],
+    "id": "2d94143ee3d67a6ee84ac432e0710f1e2c0f07d2d1a6bbd39e15cdcc423d9d57"
+  },
+  "CloseupStoryPinQuery": {
+    "files": [
+      "vendor/27410-b8b23ecb0c95c53c.mjs"
+    ],
+    "id": "b39ed2f55c3ee5de2035ca16b0c943f09ad5737d6ea4cc6d20f6131a2f9589e8"
+  },
+  "CommentReactionUnitedSocialModulePinReactionCountQuery": {
+    "files": [
+      "vendor/97395-6578c273c620d579.mjs"
+    ],
+    "id": "48fbfc6748cdc68d104c73b0cfdb4868c215cb7d60c84eec86230edf26e9ee8f"
+  },
+  "CommentThreadContainerLikeMutation": {
+    "files": [
+      "vendor/60601-1e929e4e5a3da2e3.mjs"
+    ],
+    "id": "0e45555e33d7c8c17de577cb4e5213ff3568b1b3f3e6694041407c0dad67674d"
+  },
+  "CommentThreadContainerUnLikeMutation": {
+    "files": [
+      "vendor/60601-1e929e4e5a3da2e3.mjs"
+    ],
+    "id": "8f06f078d5b50aa7a3b5e86afda41af9f9ff89d14d2620f3f830abe11ce26f6e"
+  },
+  "CommentThreadModalQuery": {
+    "files": [
+      "vendor/97395-6578c273c620d579.mjs"
+    ],
+    "id": "503d6a658fbdf1404c2e96de79910ea0f522d93c488d295b4ef028a98082b0eb"
+  },
+  "CountryCellQuery": {
+    "files": [
+      "vendor/43692-d1fe2e93189d2ad1.mjs"
+    ],
+    "id": "681e26a05264ee1c54ccb7aeadc468aa2120bf7fbbb646c7afba9550a8ab1353"
+  },
+  "CountryLanguageFeedDeletionModalMutation": {
+    "files": [
+      "vendor/8883-b8a2734afcb701aa.mjs"
+    ],
+    "id": "1f8cb646489444abf9b6932c5ddc7692df7c6295320ae42201eb12d6c1a97da1"
+  },
+  "CountryLanguageFeedsTableQuery": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs",
+      "vendor/24305-4fad7b18bd6c0d3b.mjs",
+      "vendor/30201-ecd294e6bd13c30f.mjs"
+    ],
+    "id": "42bc2e313b37ce940fc1e3fae6e6fdba688ab2aaabf3d77617cd670d0e36fcaf"
+  },
+  "CountryLocaleFieldsLocalesQuery": {
+    "files": [
+      "vendor/19665-88cd0caba549be62.mjs",
+      "vendor/5783-5d11fa762ab0ae0c.mjs"
+    ],
+    "id": "dcea0872194311e3eba42d8f670515ca5b9c9d2e2aa04cf024f6e0ad45a4192e"
+  },
+  "CreateOrEditSideSheetAddFeedMutation": {
+    "files": [
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "3e3faba5b8842625fbf533343980a639460a9f9eafa218b8901b221dfc146bbc"
+  },
+  "CreateOrEditSideSheetCountryLanguageFeedCreateSupplementalFeedProfileMutation": {
+    "files": [
+      "vendor/8883-b8a2734afcb701aa.mjs"
+    ],
+    "id": "a51b06aa2b3f3dcc2a163b73232eb5c55e087ca808d891c8e1d57ecf1692417a"
+  },
+  "CreateOrEditSideSheetCountryLanguageFeedQuery": {
+    "files": [
+      "vendor/8883-b8a2734afcb701aa.mjs"
+    ],
+    "id": "78a303ee782e02288451b18316f6ed01e5a36d2c8ff75e2504a63eb596e961ee"
+  },
+  "CreateOrEditSideSheetCountryLanguageFeedUpdateSupplementalFeedProfileMutation": {
+    "files": [
+      "vendor/8883-b8a2734afcb701aa.mjs"
+    ],
+    "id": "1252cac146bdd5802c157ec42ea7dc2015586996966b39977244801336dba7d2"
+  },
+  "CreateOrEditSideSheetCreateOverlayMutation": {
+    "files": [
+      "vendor/OverlayCreateSideSheet-21d11faf739ea408.mjs"
+    ],
+    "id": "25b5fa1493ba2b953104452853163c74ed6e6fbac3a1d1c7cf2108e8c477b157"
+  },
+  "CreateOrEditSideSheetCreateSupplementalFeedProfileMutation": {
+    "files": [
+      "vendor/SupplementalDataSourcesCreateOrEditSideSheet-41268674f0ba8671.mjs"
+    ],
+    "id": "e7da87d0db4b698966f3049082df85a9188b78e186ec10c5385bec2f72d80247"
+  },
+  "CreateOrEditSideSheetGetS3LinkSupplementalMutation": {
+    "files": [
+      "vendor/SupplementalDataSourcesCreateOrEditSideSheet-41268674f0ba8671.mjs"
+    ],
+    "id": "eec683f96782bd7629878855e3970b50423561309673d5f7e6dfdf1a8237e99f"
+  },
+  "CreateOrEditSideSheetQuery": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "1a0b9dcddb7cc97f6b75f1730ac7dba25000cf8d78ab2ed2e8c1b96ff3cbb758"
+  },
+  "CreateOrEditSideSheetUpdateFeedMutation": {
+    "files": [
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "1daa8a1b571c19b1cd62d48ea382ff2671032c65c8b65fcc6fdd3aebf4c04fac"
+  },
+  "CreateOrEditSideSheetUpdateOverlayMutation": {
+    "files": [
+      "vendor/OverlayCreateSideSheet-21d11faf739ea408.mjs"
+    ],
+    "id": "6619acaff8c603697947a8b75eed57b1c731a36d58a04b5114c90a464958f818"
+  },
+  "CreateOrEditSideSheetUpdateSupplementalFeedProfileMutation": {
+    "files": [
+      "vendor/SupplementalDataSourcesCreateOrEditSideSheet-41268674f0ba8671.mjs"
+    ],
+    "id": "c7e4f88ec68b5dc75cfd15a48c3fda78ea5443e089b2284fc442152e44d315f0"
+  },
+  "CreateOrEditSideSheet_CollaborativeCatalogQuery": {
+    "files": [
+      "vendor/19665-88cd0caba549be62.mjs",
+      "vendor/5783-5d11fa762ab0ae0c.mjs"
+    ],
+    "id": "7d64535ce61b80054380e4e1d234850609901b6c18a4a332a1385592153de5b1"
+  },
+  "CreateOrEditSideSheet_CreativeOverlays_AssignmentRules_AddOverlayAssignmentRule_Mutation": {
+    "files": [
+      "vendor/CreativeOverlaysAssignmentRuleCreateOrEditSideSheet-ad373efbc6ea07b0.mjs"
+    ],
+    "id": "2140119f1322b4ef6934199b3a3b838c3698a4f2a18076b018e46f52b54d9391"
+  },
+  "CreateOrEditSideSheet_CreativeOverlays_AssignmentRules_BusinessUserOverlay_Query": {
+    "files": [
+      "vendor/CreativeOverlaysAssignmentRuleCreateOrEditSideSheet-ad373efbc6ea07b0.mjs"
+    ],
+    "id": "c9413be06adbaf3c1815001003002f76b79596ac5a79c9ccce8f60deb448b78a"
+  },
+  "CreateOrEditSideSheet_CreativeOverlays_AssignmentRules_UpdateOverlayAssignmentRule_Mutation": {
+    "files": [
+      "vendor/CreativeOverlaysAssignmentRuleCreateOrEditSideSheet-ad373efbc6ea07b0.mjs"
+    ],
+    "id": "16524ff495ab3fd8d180f32dd150fe89d539386c21d44b409c10745199b56c45"
+  },
+  "CreateOrEditSideSheet_CreativeOverlays_AssignmentRules_filteredItemInfo_Query": {
+    "files": [
+      "vendor/CreativeOverlaysAssignmentRuleCreateOrEditSideSheet-ad373efbc6ea07b0.mjs"
+    ],
+    "id": "46a765599dacf4ad7f814774a6b42417a8d632f7ab8ef9392687d7126299d840"
+  },
+  "CreateOrEditSideSheet_DataSources_Query": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs",
+      "vendor/24305-4fad7b18bd6c0d3b.mjs",
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "89e181fc9a217ac2f162f89b61c28b8b723468b48c985b2cd0d1b731dd990212"
+  },
+  "CreateOrEditSideSheet_Promotions_Query": {
+    "files": [
+      "vendor/97063-0a94d6a1ad93dba5.mjs"
+    ],
+    "id": "8a0631fd293db148dd395232867c406995fc5747f0185b35997e272ca50d8132"
+  },
+  "CreateOrEditSideSheet_SupplementalDataSources_Query": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs",
+      "vendor/2287-486fb10297b534a4.mjs",
+      "vendor/45827-6cb19e9052bd89eb.mjs",
+      "vendor/4873-664314cf10402cd0.mjs"
+    ],
+    "id": "cd37c3c5511d38a47424a30019de0e84c369fcc36bce5a733634b20ad050d38c"
+  },
+  "CreateOrEditSideSheet_filteredItemInfo_Query": {
+    "files": [
+      "vendor/19665-88cd0caba549be62.mjs",
+      "vendor/2969-ea5cddfec8e0d21a.mjs",
+      "vendor/5783-5d11fa762ab0ae0c.mjs"
+    ],
+    "id": "04720c5bcf94a64b4908993148be8111beec6b28c25f42306ac1e679d7617cca"
+  },
+  "CreateOrEditSideSheet_productCount_Query": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "40243d5e0bd87a642d71a6ed6b5fb29a003415d772cffb28907bfbb42ceeb1b5"
+  },
+  "CreateOrEditSideSheet_productGroup_Query": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "b40ed0748256830586b4a187f3ecd69bf2c76b8c9ff0a426e4b7732ae6d27a19"
+  },
+  "CreativeAssetsQuery": {
+    "files": [
+      "vendor/49304-1667cb88b4308b7f.mjs"
+    ],
+    "id": "ef4464184d719a27fa6392444aaab8bc1d1ef865f1946e0b5af274293d86bbd3"
+  },
+  "CreativeAssets_filteredInfo_Query": {
+    "files": [
+      "vendor/49304-1667cb88b4308b7f.mjs"
+    ],
+    "id": "8a0fc5275f9c1868d68d3d65b0452e77563655ed62d8f9293fc9ef499d6a1be6"
+  },
+  "CreativeOverlaysPage_Query": {
+    "files": [
+      "vendor/31600-e6718ccd95cc2e44.mjs"
+    ],
+    "id": "d944548d12603085e11ec2dd2e57419cabd3e6dea1e093bc2bcb983eea0e1566"
+  },
+  "CreativeOverlays_BusinessUserOverlayData_Page_Query": {
+    "files": [
+      "vendor/21992-c58f3981bef48970.mjs"
+    ],
+    "id": "dbc8f0946d13c03e3ebf970da9e5d9d276192383ea0b0c42aa1464d2a2cc4e4c"
+  },
+  "CutoutToolContainerQuery": {
+    "files": [
+      "vendor/component__collage-creation-tool-f0eb54328869b1ec.mjs"
+    ],
+    "id": "3f5d1f682bc5a85672c3f9350e9a117b8f974f45c6007a78c4bcc066a571d354"
+  },
+  "DataSourceActionsCellDeleteMutation": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "c9ade11bafaea9f185cf75910d103174cfef36f016c451f4cdf62e9ec39a72f9"
+  },
+  "DataSourceDeletionPromptModalMutation": {
+    "files": [
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "0305a94cbede66773f722251116fca1355a46bc586eeeff032c795ac60420c68"
+  },
+  "DataSourceDetailPage_Query": {
+    "files": [
+      "vendor/74752-c3a42f85d8617cbb.mjs"
+    ],
+    "id": "0b46a77f986b493aee3982e0695aba7c78f9ffe9c888f385b68f63d1ba32a35c"
+  },
+  "DataSourceDetail_primary_Query": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "7a8464e4c9eb9630909bcb26384f0750fcad1b1341e572a9b3c338fdd483edcc"
+  },
+  "DataSourceDetail_supplemental_Query": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "367180ab6e1fab3066407046d950ad59b03b782cba1bd9b3fdf9640c55ecc0d1"
+  },
+  "DataSourceRegionsQuery": {
+    "files": [
+      "vendor/4873-664314cf10402cd0.mjs"
+    ],
+    "id": "7f661787132444dab0bb79c729250533f680adf224adebe6647eb9cecde2b8f0"
+  },
+  "DataSourceUploadLocaleFieldV3Query": {
+    "files": [
+      "vendor/45656-6827bd22e5ab6a28.mjs",
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "be6b000e1d36c7fc30e92c2d0e1bd37c208529a9690f1821e04279559cac6a7c"
+  },
+  "DataSourcesQuery": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "6151adeaa45782d04ee9ce8daff15bd00bd903695c6f9f7be9d8157d425ac7a8"
+  },
+  "DataSourcesTable_Query": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "4017fc35d0ee7eeab790c2d5fab46f6e5306a175a877941394f2a1e7ffae7ed3"
+  },
+  "DeleteOverlayConfirmationModalDataContainerMutation": {
+    "files": [
+      "vendor/DeleteOverlayConfirmationModalDataContainer-3e6673cd799598fc.mjs"
+    ],
+    "id": "d760a8aa57967fc5ee7d7a3f82c7ba230ba3782e83935d433d3ff704f1005ce4"
+  },
+  "DeleteProductsConfirmationModalMutation": {
+    "files": [
+      "vendor/62584-671401f0fecdeaf8.mjs"
+    ],
+    "id": "bb908ab99968184c1dcd71140adc8a8d6efc76cbd198c73aa9d1273e487ffff9"
+  },
+  "DeleteStoreWarningModalMutation": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs"
+    ],
+    "id": "73477162ce95bea20c50451e0d771dfc9a8e8a128becc5e1d02457631e32d721"
+  },
+  "DeletionModalDeleteSupplementaFeedProfileMutation": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs",
+      "vendor/SupplementalDataSourcesCreateOrEditSideSheet-41268674f0ba8671.mjs"
+    ],
+    "id": "cd8eb090b21bd910e2b88efeb77e099a9daca3fea849b11c8fad4e7f26639625"
+  },
+  "DeletionModalsQuery": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "6628bff45216987ec700c4a68d6676c72e0c97c68b52599fa784ea3b4613b142"
+  },
+  "DiagnosticsV2Query": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "8dc0656fd9950c96236471a5bca36be7315ab553703e2ab23f54dbdf50615737"
+  },
+  "DistributionIssueDetailsTableQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "c9339e13c52f62277d50afb2b85956f680360bf6ce458c09da282511b625bdd6"
+  },
+  "DistributionIssueDetailsV2TableQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "0e8be9472845abdf51f41fcd96a97fb8c5e90d205b1ae1b24e978d420e7a8b80"
+  },
+  "DistributionIssuesTabContentQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "e622453aaa743d14acbbe8cb5644305d0d6e841aacf1c2d940dc28e0ce1ab739"
+  },
+  "DistributionIssuesTableReportReadyQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "5e240fa410f92411e0efc5b0e21e5d001ca2481fd7517e950d91d10b659dae3b"
+  },
+  "DistributionIssuesTableRequestReportMutation": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "66b8276944e7c62c217da7f795ba87f7bb71b81838e276769845380346c41c3e"
+  },
+  "DistributionIssuesTableV2ReportReadyQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "50d3a425bfde497e3eef285dbc36618a12701f8cad6a16b98be9b8e996a23ef5"
+  },
+  "DistributionIssuesTableV2RequestReportMutation": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "ed0d89d2a2d6e3c72925698525f133f47187135d1b0636071516eac9e9359e1c"
+  },
+  "DuploShoppingModuleQuery": {
+    "files": [
+      "vendor/55497-3de8bb781b5b0cf1.mjs"
+    ],
+    "id": "96c8830c6541c79df59b83526039bc7d44603e3d27eb2e6eecd712a351e45c16"
+  },
+  "EmailUnsubscribeModalQuery": {
+    "files": [
+      "vendor/EmailUnsubscribeModal-e19c73f81e4aa110.mjs"
+    ],
+    "id": "990a6f42af8657ecb0a56d59ee495638d4d4330b7a705df93475d8a7e794e534"
+  },
+  "EnhancementsCatalogQuery": {
+    "files": [
+      "vendor/37699-82c8f6571611a802.mjs"
+    ],
+    "id": "8ba440c5680830870e7f24e8af1d0421e9f940b571a238716206209bc801b9da"
+  },
+  "EnhancementsListQuery": {
+    "files": [
+      "vendor/60989-0f8c8a5d5d14a63a.mjs"
+    ],
+    "id": "40d761694399b3920ae07bd01c45592ac30927967a66a56ccb48824a1585266c"
+  },
+  "EnhancementsTableLoader_List_Enhancements_Query": {
+    "files": [
+      "vendor/60989-0f8c8a5d5d14a63a.mjs"
+    ],
+    "id": "89e81e12ee286b1201fa1fcc6b0d4c5d1a60847b1e67483a3de6df2f91ee0ade"
+  },
+  "EnhancementsTableLoader_List_Enhancements_catalog_Refetch_Query": {
+    "files": [
+      "vendor/60989-0f8c8a5d5d14a63a.mjs"
+    ],
+    "id": "87d054e0b83d7572138c4151fbbac8d67f1195de852ac93362510087de3d2493"
+  },
+  "EnhancementsTableLoader_View_Enhancements_Query": {
+    "files": [
+      "vendor/87027-fe0d3bdf17e29fc6.mjs"
+    ],
+    "id": "99c15e35230b2a24ea400db5627773eef698da4dd3fa145923fef7768a20119c"
+  },
+  "EnhancementsTableLoader_View_Enhancements_catalog_Refetch_Query": {
+    "files": [
+      "vendor/87027-fe0d3bdf17e29fc6.mjs"
+    ],
+    "id": "57a889e9819c15b9c591f6d8389c656ee60213fd90b01f6c5f95a35b3c81d547"
+  },
+  "EnhancementsViewQuery": {
+    "files": [
+      "vendor/87027-fe0d3bdf17e29fc6.mjs"
+    ],
+    "id": "eb464b1d70b488ca29e9cf8fdc4fce98e71ca2b400037aeade452870a3df58fc"
+  },
+  "ExcludedProductsSideSheetMutation": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "f2aa535f1821ab5197768165ca3182d6ebc1d7af03496a4bae4076366dd0c6cf"
+  },
+  "FeedProfileDetailTable_feedProfile_Query": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "c651f6c6845c8a853bd5877befc3ad985e3e959baaaaa100bd823daee0148a6a"
+  },
+  "FieldRulesTabContentQuery": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "d938083667d8919049d84e7217b54e9656c07091b479766bbbaa48f514939524"
+  },
+  "FiltersSideSheet_filteredItemInfo_Query": {
+    "files": [
+      "vendor/19665-88cd0caba549be62.mjs",
+      "vendor/60989-0f8c8a5d5d14a63a.mjs",
+      "vendor/82507-2203dbef0be0e872.mjs"
+    ],
+    "id": "5cd50b2c32a11131ffd858fdbeb713851ae03bb36edd5a5a594a4ea1dea3c409"
+  },
+  "FiltersValueDropdownPGQuery": {
+    "files": [
+      "vendor/38325-8dd91a9323da80c0.mjs"
+    ],
+    "id": "b3c9285aa7fde5315b98b67504aacb2149a3a948dbe39f15d2626f6596b371e9"
+  },
+  "FlowControlDataContainer_Enhancements_Query": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "d6f65e9237b693a84082f380542bff537626e4b171c049fd278d492ca40cf13d"
+  },
+  "FollowersListDuploPaginationQuery": {
+    "files": [
+      "vendor/26375-50bf801544fcbca9.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersControllerGraphQL-6245859b80ad9bc0.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersModalGraphQL-f785c842dd6a7b48.mjs"
+    ],
+    "id": "077b1f0647c0a60d022d8dd228b21a5081440f703589da0cab5f497e2447665f"
+  },
+  "FullScreenOptInInterestPickerQuery": {
+    "files": [
+      "vendor/11228-959892159279086b.mjs"
+    ],
+    "id": "5f90151c8f6a06a70784bf1a59f8862620985b9e090e3900e9a9c8d981503853"
+  },
+  "GatedCloseupRelatedPinsFeedQuery": {
+    "files": [
+      "vendor/27410-b8b23ecb0c95c53c.mjs"
+    ],
+    "id": "22d4b5f01f07c1be71875fc3555a98a630cb701ea7090b818d4dc456325515e6"
+  },
+  "GatedTier1CandidatesFeedQuery": {
+    "files": [
+      "vendor/component__ideas-0dfc7ea107f23a4c.mjs",
+      "vendor/loader__ideas-b1a4e1a64f77393a.mjs"
+    ],
+    "id": "c2c83caa7503cb45857e581c12741be28ac498377058c28f20c2c82f35a803b6"
+  },
+  "IdeasRootCategoryTabsQuery": {
+    "files": [
+      "vendor/34472-734fe5014a7da04c.mjs",
+      "vendor/loader__ideas-b1a4e1a64f77393a.mjs"
+    ],
+    "id": "f2ac02e8e037597e4f9086ced5811e0af960b88fded5f513fe07af338fe194e2"
+  },
+  "IdeasRootPageFeaturedBoardsQuery": {
+    "files": [
+      "vendor/component__ideas-0dfc7ea107f23a4c.mjs",
+      "vendor/loader__ideas-b1a4e1a64f77393a.mjs"
+    ],
+    "id": "2ed7e3a0b6d2daa8e752b4d4a1294f417e8ee4d44b0601cce9736589a308e0d0"
+  },
+  "IdeasRootPageInterestsQuery": {
+    "files": [
+      "vendor/component__ideas-0dfc7ea107f23a4c.mjs",
+      "vendor/loader__ideas-b1a4e1a64f77393a.mjs"
+    ],
+    "id": "26007c3717ca5c4bd0163e39a9699357c0d11bd810d8b1ab9049c9d1ef5e21d9"
+  },
+  "IngestionIssueDetailsTableQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "a8f85f9cc7d1ba56ae8926ec93a20e64647d00b96a1c43c1f23e6eb849bf51cc"
+  },
+  "IngestionIssuesTabContentQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "cea54e17fab5a0cbfb27bfdb36a8205129fca6455f99a96ab234c771b86d1a56"
+  },
+  "InstagramCatalogBannerCatalogsQuery": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "1c71185787b1009cd9388e3a1692965850fc79b4010fa4594d7a5e9bf5377d13"
+  },
+  "InstagramDataSourceStatusCell_filteredItemInfo_Query": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "eab01806a51d6a0971348ca99b0d6c5f80cff3aa05d88608e8af9bf7296f4e30"
+  },
+  "InterestGridMutation": {
+    "files": [
+      "vendor/85087-1fdfa7152290cccb.mjs"
+    ],
+    "id": "8e86b68b0558fb3376be38e5b3131be2f7a6ac47870c9c060e2b72774f9afa3c"
+  },
+  "InterestPickerStepMutation": {
+    "files": [
+      "vendor/13544-44a0814842f65d1e.mjs"
+    ],
+    "id": "d751fb7a36ea82120f0af2f7f5c4793408464dd220f9520f4893d1c3b9d23e82"
+  },
+  "InterestPickerStepQuery": {
+    "files": [
+      "vendor/13544-44a0814842f65d1e.mjs"
+    ],
+    "id": "0bb1bf2928ff845834a57626a38b37a69e5d67b1de60c40e670f6f761bf33ea4"
+  },
+  "ItemsCount_Enhancements_Query": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "3f2b3b16de3bbdf7caa5c285bd8bc17674d66a1adade3c9764914a4942d1dd80"
+  },
+  "LazyLoadPinBreadcrumbsQuery": {
+    "files": [
+      "vendor/35043-23f26e4f32e4a3c1.mjs"
+    ],
+    "id": "b4f36631d44951258436aff7f0f759aaa89ddb6da2390b2f773f2a7015e71831"
+  },
+  "Listings_filteredInfo_Query": {
+    "files": [
+      "vendor/6175-7b79422dfdefd542.mjs"
+    ],
+    "id": "45c9f577208e3c80b7d77c6a326c4ccc8a9f4d8be21bc3a4ecce028e7c576539"
+  },
+  "LocaleCountryStepGraphQLQuery": {
+    "files": [
+      "vendor/85087-1fdfa7152290cccb.mjs"
+    ],
+    "id": "4ca3dd6a28a1bc768c03f5deaae8a520e2b1a0eea9b0a654a016dddda36a6bfa"
+  },
+  "LocationIngestionErrorSection_Query": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "fb66c9f08e25103369ff35efdb15ef8056b35fc1231e7502d3ab76c6fe056eb7"
+  },
+  "ManualCreateProductGroupSideSheetUpdateProductGroupMutation": {
+    "files": [
+      "vendor/35799-1535e8a2df84006c.mjs"
+    ],
+    "id": "5bb7ad6dbe03b91fc5796d6576cb67eb8f37dc50b5966ed5f041928c45961b82"
+  },
+  "ManualCreateProductGroupSideSheet_productCount_Query": {
+    "files": [
+      "vendor/35799-1535e8a2df84006c.mjs"
+    ],
+    "id": "23923b3890f30f491d522d946065c22df639e8124eca7e14837887d44f9b4a7f"
+  },
+  "ManualCreateProductGroupSideSheet_productGroup_Query": {
+    "files": [
+      "vendor/35799-1535e8a2df84006c.mjs"
+    ],
+    "id": "99a78d289efbde0294c6b715e5a3a99615fcc02e89e98cc6cc805e0a76523aa1"
+  },
+  "ManualIngestItemsMutation": {
+    "files": [
+      "vendor/84646-b3e03aa1d964ac14.mjs"
+    ],
+    "id": "acc59c5688b36b6a8592d52c8cbd0dbf0ab1d643ba6a78197fc98ccdf2a7f3f8"
+  },
+  "ManualIngestItemsPageQuery": {
+    "files": [
+      "vendor/84646-b3e03aa1d964ac14.mjs"
+    ],
+    "id": "06b5857a6434dd5df8909d9552de6c28a3250dae632b98ecc5be7c6f5c0492df"
+  },
+  "MediaNetworkCatalogDetailPageQuery": {
+    "files": [
+      "vendor/19665-88cd0caba549be62.mjs"
+    ],
+    "id": "bd0dfa54356fbffbf2d689b1ed84676d3af2ef8284acdd7f445bf5a50c354adf"
+  },
+  "MediaNetworkCatalogDetailPage_filteredInfo_Query": {
+    "files": [
+      "vendor/19665-88cd0caba549be62.mjs"
+    ],
+    "id": "22f8da85ef8135582d1e9cda12dcb1286ff0185e384e6be3d1e33119cd64af40"
+  },
+  "MediaNetworkCatalogs_Query": {
+    "files": [
+      "vendor/5783-5d11fa762ab0ae0c.mjs"
+    ],
+    "id": "0cb05894d2c9c84e2c30e8bdc85865c640f114d9ea3b5a479e0f1bb1dd7d77b8"
+  },
+  "MediaUploadsPageContent_merchantRefetchQuery": {
+    "files": [
+      "vendor/86444-526c320fd1e98ebe.mjs"
+    ],
+    "id": "4ef29906698a389a3e4edba05437f72fa37864c8750d56d8c1b39cf8f25db1f6"
+  },
+  "MediaUploadsPageQuery": {
+    "files": [
+      "vendor/86444-526c320fd1e98ebe.mjs"
+    ],
+    "id": "988eff91cdb2c7446d027d07e51285268a765c503bf1d10c170dd2717f0e74b4"
+  },
+  "MerchantAccessibleAdvertisersContextRefetchQuery": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "e5f370023222f925b1adda814fc07c5fdeed06898014a4d85336c11d0187ea1c"
+  },
+  "MerchantCatalogsPageRoutesRefetchQuery": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "3fab667eb583c8f48026b3b94605b3a6e9b8e90cd32351fa736ee4792f031da8"
+  },
+  "MerchantDiagnosticsV2WorkflowsRefetchQuery": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "c5df471f7e300dacda4deb29541151368da48cfcfa6be1a13f09d22f235cb68e"
+  },
+  "MerchantFeedDebuggerPageRefetchQuery": {
+    "files": [
+      "vendor/9511-4a5588f7790504b1.mjs"
+    ],
+    "id": "7bc2c1be0e5c9c6b50b800959ff6f949d85d9e23bafe1b52a7dfe86f489412ab"
+  },
+  "MerchantListingsRefetchQuery": {
+    "files": [
+      "vendor/6175-7b79422dfdefd542.mjs"
+    ],
+    "id": "991ba0f618f55ddc2d0c982778ad6dd1eaebe19ac1be69a74a315ccc34d3f091"
+  },
+  "MobileSignupModalUpsellNavigationControllerQuery": {
+    "files": [
+      "vendor/UnauthPageWrapperFooter-9804f03b08e9eccd.mjs"
+    ],
+    "id": "54351e37b3a280888e980f267ca00d7d02e310610b94dc60fc647b0d839b49f1"
+  },
+  "OptInInterestPickerQuery": {
+    "files": [
+      "vendor/81790-bc340e17332f05f7.mjs"
+    ],
+    "id": "c4496672662aede54095126e99c5d5f8d146664d4c763d0598c7e14958447bba"
+  },
+  "OverlayPreviewModal_CreativeOverlays_AssignmentRules_BusinessUserOverlayData_Refetch_Query": {
+    "files": [
+      "vendor/CreativeOverlaysAssignmentRuleOverlayPreviewModal-826cbb75c746efab.mjs"
+    ],
+    "id": "b03be649ee406eb4cccfc2cf9ce34d9ca382b5d9c92755792436c5fd2f6f08fc"
+  },
+  "OverlayTableCell_CreativeOverlays_AssignmentRules_OverviewTable_BusinessUserOverlayData_Query": {
+    "files": [
+      "vendor/CreativeOverlaysAssignmentRulesTabContent-1aed289f95859d10.mjs"
+    ],
+    "id": "e6b4686e302defdd66a3421439767c5b88bf1daf5fe6445bf7fc497a02ed8bb4"
+  },
+  "OverlaysTable_CreativeOverlays_BusinessUserOverlay_Refetch_Query": {
+    "files": [
+      "vendor/83209-ff92743498902523.mjs"
+    ],
+    "id": "7b5b90c5a26b0f26fa98223c114a3080f422374ec32c38fe1227921854e7fc6a"
+  },
+  "OverviewCatalogTypeQuery": {
+    "files": [
+      "vendor/48095-396653af5fffda17.mjs"
+    ],
+    "id": "36c0ac1df09a1200bee271a21a40175e133bab28bdf498021fd62d019f5b259c"
+  },
+  "OverviewDiagnosticsSectionIngestionIssuesQuery": {
+    "files": [
+      "vendor/48095-396653af5fffda17.mjs"
+    ],
+    "id": "ea4b7bde27cf5a9ff8c0b6bb44a3ea960d416fe41b0627424da4514d63911db4"
+  },
+  "OverviewDiagnosticsSectionQuery": {
+    "files": [
+      "vendor/48095-396653af5fffda17.mjs"
+    ],
+    "id": "bc3cf9d038ad22267324cc957e139b1e35ac19ab8c85cc1a710188913beb3491"
+  },
+  "OverviewDiagnosticsV2WorkflowsRefetchQuery": {
+    "files": [
+      "vendor/48095-396653af5fffda17.mjs"
+    ],
+    "id": "1287555cf0875f912c68c2bbd7ac4efd44346b9831bf2d4eb545a1520f59c0e7"
+  },
+  "OverviewDistributionIssuesTabContentQuery": {
+    "files": [
+      "vendor/48095-396653af5fffda17.mjs"
+    ],
+    "id": "94ee8822b44a3e05590cfc11bbdae808d8e56e352076169e6514fade45e7de5e"
+  },
+  "OverviewPromoteYourProductsQuery": {
+    "files": [
+      "vendor/48095-396653af5fffda17.mjs"
+    ],
+    "id": "b7689cce0db24e2761c2bd8880d68536161060c029d31c0e233b2f5fd164bce4"
+  },
+  "OverviewPromoteYourProductsTableProductGroupsQuery": {
+    "files": [
+      "vendor/48095-396653af5fffda17.mjs"
+    ],
+    "id": "5fcf62d73fb3bcbdbf1fb801fa4d0f24fde7e24eb25ae65c10c5aed15f5380b9"
+  },
+  "OverviewPromoteYourProductsTableQuery": {
+    "files": [
+      "vendor/48095-396653af5fffda17.mjs"
+    ],
+    "id": "b073283fb1d77123eee2bc52a10390d809b46207ae314ee26bb8bef19c415249"
+  },
+  "OverviewTable_supplementalDataSources_Query": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "ccb6882515c78ff6b7b8ad2607f98fe780c301449fcf9a52d1a11fb6dd7bc4c3"
+  },
+  "PGBulkHistoryTableCatalogQuery": {
+    "files": [
+      "vendor/1979-7e18391da5095fc6.mjs"
+    ],
+    "id": "61f1c0cb58d3733a46b1bd1e82c1dee47adf9a8119300045d9df458f08452d34"
+  },
+  "PinDetailPage_Query": {
+    "files": [
+      "vendor/92310-913bbd16f46d4aa2.mjs"
+    ],
+    "id": "172ba712a32e8efcdd14dd05b6e5c86ed1392d8910fd8f759f83d53b2c26484f"
+  },
+  "PinStatsDetailsPageWrapperFragmentQuery": {
+    "files": [
+      "vendor/component__pin_id_analytics-383dfb80d04ca0c1.mjs"
+    ],
+    "id": "607db20db8385d669a72d599fd51d4f070c0b9d3c0b7009c02224f6052e0b63e"
+  },
+  "PinStatsDetailsPageWrapperQuery": {
+    "files": [
+      "vendor/component__pin_id_analytics-383dfb80d04ca0c1.mjs",
+      "vendor/loader__pin_id_analytics-f1b5cfe9dfba540e.mjs"
+    ],
+    "id": "108bcd456822650304d17e36e2dd2092ba0077a645ac53c9ed12dc9fb909dacc"
+  },
+  "PostalCodesModalValidateRegionPostalCodesMutation": {
+    "files": [
+      "vendor/43692-d1fe2e93189d2ad1.mjs"
+    ],
+    "id": "40ef6e48daf8f97a2d2c3c500145287445c1b66550282235068393eda9e25b91"
+  },
+  "PrismaBillToCardAdsQuery": {
+    "files": [
+      "vendor/62348-e1f83419847236bf.mjs"
+    ],
+    "id": "1f2e20d95865b029104ac70fc5e2a2ca21df65a1839faa097e8d7d6951fc08f3"
+  },
+  "PrismaBillToEditFormReplaceAdsQuery": {
+    "files": [
+      "vendor/62348-e1f83419847236bf.mjs"
+    ],
+    "id": "b08ebb7bef280adfc6ed4f7dff85e1a4fddaf156efa0167b165c962802f3fd26"
+  },
+  "ProductGroupCacheContextSelectedQuery": {
+    "files": [
+      "vendor/38325-8dd91a9323da80c0.mjs"
+    ],
+    "id": "0e708c28f429fab838ebb66303fdd644ce60c48e265ec2f4001b411540c64b3b"
+  },
+  "ProductGroupDetailsQuery": {
+    "files": [
+      "vendor/89905-043fb9cffa82d353.mjs"
+    ],
+    "id": "d11240d9f47cb41e37d4e2d651c0b37d3a490c1372e02034c9fc4735b9af49a8"
+  },
+  "ProductGroupFromItemsModalCreateProductGroupMutation": {
+    "files": [
+      "vendor/19329-36f59d57e3988e50.mjs"
+    ],
+    "id": "52b4abd65921977f5064a1dd0015d6feb5a9c8bf21f9ac688af27545ceff60dc"
+  },
+  "ProductGroupsQuery": {
+    "files": [
+      "vendor/35799-1535e8a2df84006c.mjs"
+    ],
+    "id": "2f8871b3e63b1cb5b3ef5f3353a96d01971166c3499bad26e5b7b0edfb82ab0e"
+  },
+  "ProductGroupsTableContent_Enhancements_Query": {
+    "files": [
+      "vendor/60989-0f8c8a5d5d14a63a.mjs"
+    ],
+    "id": "74922b0b86fa05d88a20be26d0d53aab815a9d10e58db73c41dfe7bd30bda1de"
+  },
+  "ProductGroupsTableContent_Enhancements_productGroupsV2RefetchQuery": {
+    "files": [
+      "vendor/60989-0f8c8a5d5d14a63a.mjs"
+    ],
+    "id": "9f6b589fc31b9410a5bac84cc53650799a9b00ccc2e251fdcaa446fec034a0cc"
+  },
+  "ProductGroups_collaborativeCatalogProductGroupsV2RefetchQuery": {
+    "files": [
+      "vendor/35799-1535e8a2df84006c.mjs"
+    ],
+    "id": "fe3e7c23c514bfba76d4947056904f284ec9cc90bdfd21fcb372ec6aabcba986"
+  },
+  "ProductGroups_filteredInfo_Query": {
+    "files": [
+      "vendor/35799-1535e8a2df84006c.mjs"
+    ],
+    "id": "6e223bcc3fd4804c92e8bd316af7b8df662cc1f679d51f103eb20d954a1065fd"
+  },
+  "ProductGroups_productGroupsV2RefetchQuery": {
+    "files": [
+      "vendor/35799-1535e8a2df84006c.mjs"
+    ],
+    "id": "1307fa72dd65403515f2d56ff52c7435c98fcddc66bb86619a1ee67036f086e0"
+  },
+  "ProductGroups_productGroupsV2_Query": {
+    "files": [
+      "vendor/35799-1535e8a2df84006c.mjs"
+    ],
+    "id": "65a4a40eba7b87c4cebe1937b5fa0f8c5b7d15b139c499a937577695230e7ac0"
+  },
+  "ProductsCountTableCell_CreativeOverlays_AssignmentRules_OverviewTable_filteredItemInfo_Query": {
+    "files": [
+      "vendor/CreativeOverlaysAssignmentRulesTabContent-1aed289f95859d10.mjs"
+    ],
+    "id": "834d3d3f605ce4d2ad0de4e037904854488d6b999bae8a4d552459037df2ea21"
+  },
+  "ProductsQuery": {
+    "files": [
+      "vendor/62584-671401f0fecdeaf8.mjs"
+    ],
+    "id": "a983b0ad420884d9e2539057fa58644ce872f678f0131b5cfe6422c2edebf70c"
+  },
+  "Products_filteredInfo_Query": {
+    "files": [
+      "vendor/62584-671401f0fecdeaf8.mjs"
+    ],
+    "id": "2ba111e2a4270b3bf7cb4d70b82392ea521d8378ab9d1d6544fba0205e1d8946"
+  },
+  "ProfileFollowersControllerGraphQLDuploQuery": {
+    "files": [
+      "vendor/26375-50bf801544fcbca9.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersControllerGraphQL-6245859b80ad9bc0.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersModalGraphQL-f785c842dd6a7b48.mjs"
+    ],
+    "id": "3480bae441bb3f3e6109f1731c42df4ca90e4f8ed5a1272573cf6f52607bb772"
+  },
+  "ProfileUserRepGraphQLFollowMutation": {
+    "files": [
+      "vendor/26375-50bf801544fcbca9.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersControllerGraphQL-6245859b80ad9bc0.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersModalGraphQL-f785c842dd6a7b48.mjs"
+    ],
+    "id": "5e6f83666a4e4fbd33b6c78f26f80166c097f4164e666b6e408b4bb62cb8c1e5"
+  },
+  "ProfileUserRepGraphQLRemoveUserFromFollowersMutation": {
+    "files": [
+      "vendor/26375-50bf801544fcbca9.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersControllerGraphQL-6245859b80ad9bc0.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersModalGraphQL-f785c842dd6a7b48.mjs"
+    ],
+    "id": "35fc35fac52a8fc7349567e64e98195bf7a39d370407d1660a6d69f0f7eb3631"
+  },
+  "ProfileUserRepGraphQLUnfollowMutation": {
+    "files": [
+      "vendor/26375-50bf801544fcbca9.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersControllerGraphQL-6245859b80ad9bc0.mjs",
+      "vendor/app-www-ProfileFollowers-ProfileFollowersModalGraphQL-f785c842dd6a7b48.mjs"
+    ],
+    "id": "84f6cda9933f7aa2786ff803f5c7a7bc31af0392a37434f830fd7e2602c994c0"
+  },
+  "PromotionsBulkHistoryExport_Query": {
+    "files": [
+      "vendor/28201-9e68c3d76e0a8cea.mjs"
+    ],
+    "id": "4e0f4218889c18c2c9a7192865535a522507f75da36cec101309dcac3ef419c7"
+  },
+  "PromotionsBulkHistoryImport_Query": {
+    "files": [
+      "vendor/28201-9e68c3d76e0a8cea.mjs"
+    ],
+    "id": "74826914baf0d67fdab0abb4e0fe211800330d5149cbc6626035efc3ead68fcc"
+  },
+  "PromotionsHistoryPage_Query": {
+    "files": [
+      "vendor/10445-afcdebf7fae2513d.mjs"
+    ],
+    "id": "cc96a63086b1ca04166dd034e4664e22655db6c2e70a9a631330dd6953df7b84"
+  },
+  "PromotionsPage_Query": {
+    "files": [
+      "vendor/53609-00f3ec20a9ddd50d.mjs"
+    ],
+    "id": "902ba4b18997f5bb0a0d9704479254622889c0f0ee9fba9837379c684bde09f2"
+  },
+  "Promotions_Query": {
+    "files": [
+      "vendor/35390-690dd2a3a065ce5f.mjs"
+    ],
+    "id": "7b7eee3d60e4035ac16f95de93129cb208a53541c8c2f2a6a1ae6659ee7d9d6d"
+  },
+  "PublishedFiltersToolbar_filteredInfo_Query": {
+    "files": [
+      "vendor/53877-df56f91e4adda8e0.mjs"
+    ],
+    "id": "f8b6d6b6e7a63a0a6ac7886b7ea3f327da836bc751f354932b98c28ea66ba93b"
+  },
+  "QuizResultBoardQuery": {
+    "files": [
+      "vendor/29319-5a6ed3a0810d31e2.mjs"
+    ],
+    "id": "7593d902f45c573717900473633ca3913c8e1a417397132ea06f85700e0dd44a"
+  },
+  "QuizResultProductsQuery": {
+    "files": [
+      "vendor/29319-5a6ed3a0810d31e2.mjs"
+    ],
+    "id": "6df1e7b70d75ed821b3dcd68ff87ba2f6ff418d3827533d19b8365ecdba21fa8"
+  },
+  "ReactionPickerReactionCountFragmentQuery": {
+    "files": [
+      "vendor/ReactionPicker-4840150508c4a3be.mjs"
+    ],
+    "id": "5524bab62654df94122e4458926260379bbd539dfc5f43b2e90a8033663f3d5a"
+  },
+  "ReactionPickerReactionCountQuery": {
+    "files": [
+      "vendor/ReactionPicker-4840150508c4a3be.mjs"
+    ],
+    "id": "3227a0ea5e40770ba268e64204d04f4156865bf90d9f50914f3bcd7c283a46f1"
+  },
+  "RegionsPage_Query": {
+    "files": [
+      "vendor/3453-ef19b42c7c376159.mjs"
+    ],
+    "id": "5524639d030518fc3118150895aa204b49ed72a8d3695cdf132dfbdbee9bb5e5"
+  },
+  "RegionsWrapperQuery": {
+    "files": [
+      "vendor/3453-ef19b42c7c376159.mjs"
+    ],
+    "id": "197c2f0f51d5e41b3ebb477304d38c0632dbfe62e7412aba9650af641fada306"
+  },
+  "RelatedInterestsModalQuery": {
+    "files": [
+      "vendor/97395-6578c273c620d579.mjs"
+    ],
+    "id": "f6164e699021afc016913aa57a048d17f8b64beae851f7d6693e3a7987dc1bc0"
+  },
+  "RepinPageQuery": {
+    "files": [
+      "vendor/87246-75e1f86d1eb1e25c.mjs"
+    ],
+    "id": "74c7da2e19ec27063176dbeaca4826aab14ce37a58b7fbd021c9844cdd5f645b"
+  },
+  "SalesContactBannerCalendlyDataQuery": {
+    "files": [
+      "vendor/www/business/hub-84401988c16471cc.mjs"
+    ],
+    "id": "b3fec5d3f982d84b7cf9571524a8c982fef2ce5da19b0be943a8ea9e0355da9f"
+  },
+  "SearchLandingPageFeaturedBoardsQuery": {
+    "files": [
+      "vendor/41456-384538c3cad93052.mjs",
+      "vendor/59699-ced1860cca304b5b.mjs"
+    ],
+    "id": "03d3a2a33f8fde4413d74d8e170e422225608e5364d74909ec9cbafd4dcac5ca"
+  },
+  "SearchPageSearchTabHandlerQuery": {
+    "files": [
+      "vendor/59699-ced1860cca304b5b.mjs",
+      "vendor/www/_client-e539ca6b748021bc.mjs"
+    ],
+    "id": "a0959c548d14cf06adbc04230c8151f3aec27082f8328131fbf4ac52af844041"
+  },
+  "SearchTabHandlerPaginationQuery": {
+    "files": [
+      "vendor/59699-ced1860cca304b5b.mjs"
+    ],
+    "id": "a53e4b9faaa4d08b5450d8a2f60945e513d19f0273c6175ed3a6560c70f22b4b"
+  },
+  "SelectOverlaysTable_CreativeOverlays_AssignmentRules_BusinessUserOverlayData_Query": {
+    "files": [
+      "vendor/AssignmentRuleSelectOverlaySideSheet-7a89f83d302cc77b.mjs"
+    ],
+    "id": "02a754c43a018c68dca9fa5b389d9d76e1c07c6568f11ec598ee09a9469c5a0e"
+  },
+  "SetDefaultCountryLanguageModalUpdateCatalogDefaultsMutation": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs",
+      "vendor/84208-6cc29d808285179a.mjs"
+    ],
+    "id": "09975a40e539ac580c175ac48cf2a621407400d3ac1a6d1e3bb631a8d6f86ba9"
+  },
+  "ShoppingModuleQuery": {
+    "files": [
+      "vendor/48394-e690efdd6d9b8c16.mjs"
+    ],
+    "id": "cc5c8bcb5d7b99e7afa11d3658c8ed4787e204476b4c03cab7eb0eea1c78d7bf"
+  },
+  "ShoppingRootPageBestFeedPaginationQuery": {
+    "files": [
+      "vendor/www/shopping-1943a2fd0c945d69.mjs"
+    ],
+    "id": "0670b4eff98c710d273e6fff6cb1d698d05f64822dbe77c920960b60994dd419"
+  },
+  "ShoppingRootPageGatedQuery": {
+    "files": [
+      "vendor/www/shopping-1943a2fd0c945d69.mjs"
+    ],
+    "id": "e741c0189aeac5c1a2d6c3b7778c463751ae2c48b06686b963588ab9ec718419"
+  },
+  "ShoppingRootPageQuery": {
+    "files": [
+      "vendor/www/shopping-1943a2fd0c945d69.mjs"
+    ],
+    "id": "b8288f752d549d51673f1f96f6735b9fa2c150037b325fbf89d5cdb005e0b70d"
+  },
+  "StopIngestionConfirmationModalMutation": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "a8c7928991f57c728b9b08c381cada398c691ac15554da3230561073c6aad04c"
+  },
+  "StoresPageMerchantQuery": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs"
+    ],
+    "id": "47665ae2d5c24b3996dcc1795d5ce71af993a0f8da73f091744ef6e4a8fe1279"
+  },
+  "StoresTableLoader_Query": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs"
+    ],
+    "id": "f1b801140589adccfde197810d8b52398fe6c98fad599f231002b2ad5ff303a3"
+  },
+  "StoresTableLoader_Refetch_Query": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs"
+    ],
+    "id": "6104ef4b4e7521faf48eb6175009122af986ac6e8b95e31db4bff1b26f89b954"
+  },
+  "SuccessfulExportProductGroupMessageJobStatusQuery": {
+    "files": [
+      "vendor/89905-043fb9cffa82d353.mjs"
+    ],
+    "id": "a31c747d97b63324cdb7bf8fe79dc660a683b2dbb481f99db83ae060c46b4895"
+  },
+  "SupplementalDataSourcesFooterQuery": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "1b63f4ed06ebf680f12cdcb321725dd1038debbb7b0de38a3c4e07521979c3f5"
+  },
+  "Tier1CandidatesFeedPaginationQuery": {
+    "files": [
+      "vendor/component__ideas-0dfc7ea107f23a4c.mjs"
+    ],
+    "id": "5e723f11aa1a6c26e861b4a9c97a7af5615482b57f8bb808f490cea2fbe42669"
+  },
+  "Tier1CandidatesFeedQuery": {
+    "files": [
+      "vendor/component__ideas-0dfc7ea107f23a4c.mjs",
+      "vendor/loader__ideas-b1a4e1a64f77393a.mjs"
+    ],
+    "id": "229e4c244efe0792f3df68bc09ec297dc93cf28086049fb7f7c28347a8630eb7"
+  },
+  "TodayTabPaginationQuery": {
+    "files": [
+      "vendor/13747-db1ef881735a995a.mjs"
+    ],
+    "id": "8d707bc91ea9e4ab34679d56fd032ad360870cdd51127ef7198682ce7eb6aae7"
+  },
+  "TodayTabQuery": {
+    "files": [
+      "vendor/13747-db1ef881735a995a.mjs",
+      "vendor/loader__ideas-b1a4e1a64f77393a.mjs",
+      "vendor/loader__today-ef774b9c254a59a3.mjs"
+    ],
+    "id": "7649d753aa8d74a222871d734b9a7c0b8dd06a8031ef82569e583a1cd4b2e1e8"
+  },
+  "TranslationApprovalViewPublishedQuery": {
+    "files": [
+      "vendor/53877-df56f91e4adda8e0.mjs"
+    ],
+    "id": "d43f66fb5cb8bd57b2cc7863015b0b534f209394ff01b5742da4cac69c1c5296"
+  },
+  "TriggerIngestionSideSheetOnDemandIngestionMutation": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "7c04323ad0cffe4fe0e610c2393a865c4e1571a2fc449a0a7443da7c05ab4e99"
+  },
+  "TurningOffEnhancementsModalLoader_filteredItemInfo_Query": {
+    "files": [
+      "vendor/37699-82c8f6571611a802.mjs"
+    ],
+    "id": "6b26a058d75d4f6a44f169c765c7e7160b8d744cf136f1f801a6e345869f7656"
+  },
+  "UnauthCloseupRelatedPinsFeedPaginationQuery": {
+    "files": [
+      "vendor/app-www-closeup-duplo-UnauthCloseupRelatedPins-be3f807f0a160a40.mjs"
+    ],
+    "id": "98214ed0e15046c04f2d4ab41ebe537daeebb98d514b7ef480ab7a6884a86a0a"
+  },
+  "UnauthCloseupRelatedPinsFeedQuery": {
+    "files": [
+      "vendor/app-www-closeup-duplo-UnauthCloseupRelatedPins-be3f807f0a160a40.mjs"
+    ],
+    "id": "6689f32ea64e1f198ca6eb15642d7083992c1de2a2407cf2af3b63c2547881ba"
+  },
+  "UnauthContextMenuQuery": {
+    "files": [
+      "vendor/89257-3c222e45f55cbf9c.mjs"
+    ],
+    "id": "4b06407e2f5856d69707ccb3f384b752e29c4cbcfacc174b6166dd2781370e7d"
+  },
+  "UnauthHomePageBrandBoardsQuery": {
+    "files": [
+      "vendor/69240-3a9e6e9047fd4888.mjs"
+    ],
+    "id": "1f38a274cc3a4a2131e8f7789ac3436c1be52fbd07b82c053d4735afb47d3df7"
+  },
+  "UnauthHomePageFeaturedBoardsModuleQuery": {
+    "files": [
+      "vendor/87676-defdf42759eb08c2.mjs"
+    ],
+    "id": "19ba87e179028c6c89ef59825f1d50caa7b31dbe87e4267395111872de1eb73a"
+  },
+  "UnauthHomePageInterestsQuery": {
+    "files": [
+      "vendor/87676-defdf42759eb08c2.mjs"
+    ],
+    "id": "6d013969502bfafadef23c9a09b9ba99a5f0f712ba4928f3f861d704994c3238"
+  },
+  "UnauthPinRightClickMenuQuery": {
+    "files": [
+      "vendor/54839-427c862fee1c5d74.mjs",
+      "vendor/77220-c3a4076f11273c1b.mjs"
+    ],
+    "id": "1a35c1b7a2a332e0c9ff4730b41aa0d3589ba37258791cbaa203d882ec4df4ca"
+  },
+  "UnsubscribePageMutation": {
+    "files": [
+      "vendor/EmailUnsubscribeModal-e19c73f81e4aa110.mjs",
+      "vendor/www/email/subscription-8cdceaad2d83558e.mjs"
+    ],
+    "id": "27a0c7bacc9c32c3c51137094a6be9cac309a7cf24895be31fe337510763bf50"
+  },
+  "UnsubscribePageQuery": {
+    "files": [
+      "vendor/EmailUnsubscribeModal-e19c73f81e4aa110.mjs",
+      "vendor/www/email/subscription-8cdceaad2d83558e.mjs"
+    ],
+    "id": "4592888945ae1c3c6b003fbe8ad36d5cdba5761894936cbe1bff4acad021f4d3"
+  },
+  "ValidationContainerPollFeedValidationQuery": {
+    "files": [
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "ff0c0b4bd3067c47b96afdb5712863597e4cd0083741d24702d3ce64c9567c81"
+  },
+  "ValidationContainerSubmitFeedValidationMutation": {
+    "files": [
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "4d530a5275f1a4e6c79d2298592e4d4a18511c6227040c4b8e5b1eca7d825bd7"
+  },
+  "advertiserDetailApiGetAdAccountInfoAdsQuery": {
+    "files": [
+      "vendor/44746-0026c7f1b26c901b.mjs"
+    ],
+    "id": "3b2b169f8df0b5f97579329da766dffe5017d974a90996b0d561d35cd0de43ad"
+  },
+  "brandAccountsCreateAdsQuery": {
+    "files": [
+      "vendor/2969-ea5cddfec8e0d21a.mjs"
+    ],
+    "id": "0a9d8b3c12a598bd40c959bdb40a937e16c712e877df39837a8979b6668dd0de"
+  },
+  "brandAccountsReadAdsQuery": {
+    "files": [
+      "vendor/2969-ea5cddfec8e0d21a.mjs"
+    ],
+    "id": "03a078eb94f5f90f906360c05b56b9782fd7f2e40907e814a816816a4709c507"
+  },
+  "brandAccountsUpdateAdsQuery": {
+    "files": [
+      "vendor/2969-ea5cddfec8e0d21a.mjs"
+    ],
+    "id": "a9d11df525fcfd5aa58a54c9a4ad0de94e029c53bd55ded1d12b75bddbcebdee"
+  },
+  "collab_AcceptInvite_Mutation": {
+    "files": [
+      "vendor/30621-d1b388072c94d2ff.mjs",
+      "vendor/38916-099db82a8361bfb7.mjs",
+      "vendor/41008-36f9cd8ce03c33b1.mjs",
+      "vendor/69072-f0b219d6604537fa.mjs",
+      "vendor/76383-8fa9d2ac4654a725.mjs",
+      "vendor/78073-2d644615b6927fc5.mjs",
+      "vendor/79177-07ce5cebcfe2c6e2.mjs",
+      "vendor/84564-3a51239b245429ad.mjs",
+      "vendor/86147-57e64ade451b6ad8.mjs",
+      "vendor/89905-043fb9cffa82d353.mjs",
+      "vendor/931-5057705fdb9b77f6.mjs",
+      "vendor/95013-446ed99d07f08464.mjs",
+      "vendor/PinSaveButtonCommon-cf701c361c7f3d52.mjs",
+      "vendor/app-www-followersAuthDesktop-FollowersModalContainer-85b3ca675aa04481.mjs",
+      "vendor/component__collage-creation-tool-f0eb54328869b1ec.mjs",
+      "vendor/www/_client-e539ca6b748021bc.mjs",
+      "vendor/www/invited-83f1b3b28fdc2f17.mjs",
+      "vendor/www/me/recap-0d78a26c5881e988.mjs"
+    ],
+    "id": "781c41132fefa007ebde7bcd8c49840ce1768ed6f6781fd72e3904bd35fb576f"
+  },
+  "collab_ApproveInvite_Mutation": {
+    "files": [
+      "vendor/30621-d1b388072c94d2ff.mjs",
+      "vendor/38916-099db82a8361bfb7.mjs",
+      "vendor/41008-36f9cd8ce03c33b1.mjs",
+      "vendor/69072-f0b219d6604537fa.mjs",
+      "vendor/76383-8fa9d2ac4654a725.mjs",
+      "vendor/78073-2d644615b6927fc5.mjs",
+      "vendor/79177-07ce5cebcfe2c6e2.mjs",
+      "vendor/84564-3a51239b245429ad.mjs",
+      "vendor/86147-57e64ade451b6ad8.mjs",
+      "vendor/89905-043fb9cffa82d353.mjs",
+      "vendor/931-5057705fdb9b77f6.mjs",
+      "vendor/95013-446ed99d07f08464.mjs",
+      "vendor/PinSaveButtonCommon-cf701c361c7f3d52.mjs",
+      "vendor/app-www-followersAuthDesktop-FollowersModalContainer-85b3ca675aa04481.mjs",
+      "vendor/component__collage-creation-tool-f0eb54328869b1ec.mjs",
+      "vendor/www/_client-e539ca6b748021bc.mjs",
+      "vendor/www/invited-83f1b3b28fdc2f17.mjs",
+      "vendor/www/me/recap-0d78a26c5881e988.mjs"
+    ],
+    "id": "472a584df4a467181ed32ec33d235ef2f2e6d53fdb4c7a43d11156b6d51dcd50"
+  },
+  "collab_DeclineOrDeleteBoardCollaboratorInvite_Mutation": {
+    "files": [
+      "vendor/30621-d1b388072c94d2ff.mjs",
+      "vendor/38916-099db82a8361bfb7.mjs",
+      "vendor/41008-36f9cd8ce03c33b1.mjs",
+      "vendor/69072-f0b219d6604537fa.mjs",
+      "vendor/76383-8fa9d2ac4654a725.mjs",
+      "vendor/78073-2d644615b6927fc5.mjs",
+      "vendor/79177-07ce5cebcfe2c6e2.mjs",
+      "vendor/84564-3a51239b245429ad.mjs",
+      "vendor/86147-57e64ade451b6ad8.mjs",
+      "vendor/89905-043fb9cffa82d353.mjs",
+      "vendor/931-5057705fdb9b77f6.mjs",
+      "vendor/95013-446ed99d07f08464.mjs",
+      "vendor/PinSaveButtonCommon-cf701c361c7f3d52.mjs",
+      "vendor/app-www-followersAuthDesktop-FollowersModalContainer-85b3ca675aa04481.mjs",
+      "vendor/component__collage-creation-tool-f0eb54328869b1ec.mjs",
+      "vendor/www/_client-e539ca6b748021bc.mjs",
+      "vendor/www/invited-83f1b3b28fdc2f17.mjs",
+      "vendor/www/me/recap-0d78a26c5881e988.mjs"
+    ],
+    "id": "ff3059743c1d13d4f1c2ef07e10d2b29925c7b330db4103e55e9e65c380c0ce5"
+  },
+  "collab_RemoveBoardCollaborators_Mutation": {
+    "files": [
+      "vendor/30621-d1b388072c94d2ff.mjs",
+      "vendor/38916-099db82a8361bfb7.mjs",
+      "vendor/41008-36f9cd8ce03c33b1.mjs",
+      "vendor/69072-f0b219d6604537fa.mjs",
+      "vendor/76383-8fa9d2ac4654a725.mjs",
+      "vendor/78073-2d644615b6927fc5.mjs",
+      "vendor/79177-07ce5cebcfe2c6e2.mjs",
+      "vendor/84564-3a51239b245429ad.mjs",
+      "vendor/86147-57e64ade451b6ad8.mjs",
+      "vendor/89905-043fb9cffa82d353.mjs",
+      "vendor/931-5057705fdb9b77f6.mjs",
+      "vendor/95013-446ed99d07f08464.mjs",
+      "vendor/PinSaveButtonCommon-cf701c361c7f3d52.mjs",
+      "vendor/app-www-followersAuthDesktop-FollowersModalContainer-85b3ca675aa04481.mjs",
+      "vendor/component__collage-creation-tool-f0eb54328869b1ec.mjs",
+      "vendor/www/_client-e539ca6b748021bc.mjs",
+      "vendor/www/invited-83f1b3b28fdc2f17.mjs",
+      "vendor/www/me/recap-0d78a26c5881e988.mjs"
+    ],
+    "id": "83dd1206102cffdd460f8c072df0ca515d27c8fcf3798423f1657afabdf467ac"
+  },
+  "collab_RequestToJoin_Mutation": {
+    "files": [
+      "vendor/30621-d1b388072c94d2ff.mjs",
+      "vendor/38916-099db82a8361bfb7.mjs",
+      "vendor/41008-36f9cd8ce03c33b1.mjs",
+      "vendor/69072-f0b219d6604537fa.mjs",
+      "vendor/76383-8fa9d2ac4654a725.mjs",
+      "vendor/78073-2d644615b6927fc5.mjs",
+      "vendor/79177-07ce5cebcfe2c6e2.mjs",
+      "vendor/84564-3a51239b245429ad.mjs",
+      "vendor/86147-57e64ade451b6ad8.mjs",
+      "vendor/89905-043fb9cffa82d353.mjs",
+      "vendor/931-5057705fdb9b77f6.mjs",
+      "vendor/95013-446ed99d07f08464.mjs",
+      "vendor/PinSaveButtonCommon-cf701c361c7f3d52.mjs",
+      "vendor/app-www-followersAuthDesktop-FollowersModalContainer-85b3ca675aa04481.mjs",
+      "vendor/component__collage-creation-tool-f0eb54328869b1ec.mjs",
+      "vendor/www/_client-e539ca6b748021bc.mjs",
+      "vendor/www/invited-83f1b3b28fdc2f17.mjs",
+      "vendor/www/me/recap-0d78a26c5881e988.mjs"
+    ],
+    "id": "ff45f353c3246c417487b54a02f0669dbc6c45761df9567395537bf1f7875a9f"
+  },
+  "collab_emails_Mutation": {
+    "files": [
+      "vendor/30621-d1b388072c94d2ff.mjs",
+      "vendor/38916-099db82a8361bfb7.mjs",
+      "vendor/41008-36f9cd8ce03c33b1.mjs",
+      "vendor/69072-f0b219d6604537fa.mjs",
+      "vendor/76383-8fa9d2ac4654a725.mjs",
+      "vendor/78073-2d644615b6927fc5.mjs",
+      "vendor/79177-07ce5cebcfe2c6e2.mjs",
+      "vendor/84564-3a51239b245429ad.mjs",
+      "vendor/86147-57e64ade451b6ad8.mjs",
+      "vendor/89905-043fb9cffa82d353.mjs",
+      "vendor/931-5057705fdb9b77f6.mjs",
+      "vendor/95013-446ed99d07f08464.mjs",
+      "vendor/PinSaveButtonCommon-cf701c361c7f3d52.mjs",
+      "vendor/app-www-followersAuthDesktop-FollowersModalContainer-85b3ca675aa04481.mjs",
+      "vendor/component__collage-creation-tool-f0eb54328869b1ec.mjs",
+      "vendor/www/_client-e539ca6b748021bc.mjs",
+      "vendor/www/invited-83f1b3b28fdc2f17.mjs",
+      "vendor/www/me/recap-0d78a26c5881e988.mjs"
+    ],
+    "id": "b71dbcb22ec2462fa0cde080403e4f9001df6f822511fd94b0fb3eae0c6b3fd4"
+  },
+  "collab_users_Mutation": {
+    "files": [
+      "vendor/30621-d1b388072c94d2ff.mjs",
+      "vendor/38916-099db82a8361bfb7.mjs",
+      "vendor/41008-36f9cd8ce03c33b1.mjs",
+      "vendor/69072-f0b219d6604537fa.mjs",
+      "vendor/76383-8fa9d2ac4654a725.mjs",
+      "vendor/78073-2d644615b6927fc5.mjs",
+      "vendor/79177-07ce5cebcfe2c6e2.mjs",
+      "vendor/84564-3a51239b245429ad.mjs",
+      "vendor/86147-57e64ade451b6ad8.mjs",
+      "vendor/89905-043fb9cffa82d353.mjs",
+      "vendor/931-5057705fdb9b77f6.mjs",
+      "vendor/95013-446ed99d07f08464.mjs",
+      "vendor/PinSaveButtonCommon-cf701c361c7f3d52.mjs",
+      "vendor/app-www-followersAuthDesktop-FollowersModalContainer-85b3ca675aa04481.mjs",
+      "vendor/component__collage-creation-tool-f0eb54328869b1ec.mjs",
+      "vendor/www/_client-e539ca6b748021bc.mjs",
+      "vendor/www/invited-83f1b3b28fdc2f17.mjs",
+      "vendor/www/me/recap-0d78a26c5881e988.mjs"
+    ],
+    "id": "42ceaa3423a096a27613e5738f83aaadcee449c55d4dd03624d2f08a6b6dca04"
+  },
+  "commitDeleteBusinessLocationsMutation": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "60966700a78c5ca6752b0f12121869a19d17434e2f6c70bc78cc775fe5554c63"
+  },
+  "fetchFirstRetailCatalogIdQuery": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "5108e73cc24ce3a427b1ba0576c575f2de6427480fa0c44a444d2740d85595db"
+  },
+  "hooksBizHubMerchantOnboardingModuleEligibilityQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "abc676455d929082f57c8ca1e9e740b7687b3ba2020a1d275a43a02222016db7"
+  },
+  "hooksEarliestMerchantReviewQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "da9fc7cbd511a9da41222d1796dd0045c445ca772a583f15b9b5352e5e3bb438"
+  },
+  "hooksGetVerifiedMerchantCatalogRequirementStatusQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/75483-755a01546cfc5743.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "533c26b62c05e582ae57fe4def80eeb89a67e05859fa779cd7e6bca0665847d0"
+  },
+  "hooksGetVerifiedMerchantComplianceCheckResultQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/75483-755a01546cfc5743.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "d2f02ef7ec9a0880a3f6ba314698fa8f161d3398289ed753049f8434871ef85d"
+  },
+  "hooksGetVerifiedMerchantConversionHealthRequirementStatusQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/75483-755a01546cfc5743.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "d33c75ad646b3d26899c7137c65fcc645182bf07b5bd051587c815be9d15960e"
+  },
+  "hooksGetVerifiedMerchantLastCompliantAtQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/75483-755a01546cfc5743.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "f5414b3a28e2603af334a82b7ecc658f8f93a4ae7c836f0d607dec1726f59575"
+  },
+  "hooksGetVerifiedMerchantStatusQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/75483-755a01546cfc5743.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "23818df9a029b81cde68d8d27562f211af9293f952c3ba024945291e1682fbca"
+  },
+  "hooksMerchantHasPendingDomainGracePeriodQuery": {
+    "files": [
+      "vendor/44860-ceb365aa103689a4.mjs",
+      "vendor/www/business/hub-84401988c16471cc.mjs"
+    ],
+    "id": "ec8bc0bd3819fca4cc0f2bea88e94e6502db669fd80432031b1b2efb5d1645b8"
+  },
+  "hooksQuery": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "9a76ee854dda457a71c3eab17f94e117c7fc3ccc32b59bcbbd7ab3cce9fd30c7"
+  },
+  "hooksUserEligibleForMerchantCenterQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "3721e5ce713fc5798b4a5132ba8bf39f520f871349b09089a211346af728bd01"
+  },
+  "hooksUserEligibleForVmpExperiencesQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/75483-755a01546cfc5743.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "2a14f8c24c2b9d654fa926c5dfb868d9f28241968a38cd1c0c0eeb21cc6bb611"
+  },
+  "hooksUserEligibleMerchantStatusQuery": {
+    "files": [
+      "vendor/44860-ceb365aa103689a4.mjs",
+      "vendor/www/business/hub-84401988c16471cc.mjs"
+    ],
+    "id": "5cde4b17f05b7a147d51138bbc4412d35f62a5f77444dcf26a236d9c624361e6"
+  },
+  "hooksUserHasClaimedWebsiteQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "40de24c58b462d7fc251c1ca65d1408977ac79938702f313db6688e73e65db17"
+  },
+  "hooksUserMerchantCenterCompleteProfileStatusQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "57243135dc4266924866a550c1d3ee0f03d6821db377d71255bb2f06c1a79ac9"
+  },
+  "hooksUserMerchantCenterCreateAdStatusQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "4308eec6f2fac981fa2b01603fc77072b6a0125f3475044fb5c9fc2d6a34f5a2"
+  },
+  "hooksUserMerchantCenterInstallTagStatusQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "2d41bfe89032fac39db37b06f6488ba43a1c5dc8344ded911bcaeab22dfed532"
+  },
+  "hooksUserMerchantCenterJoinVMPQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "af430b34b881213c3c86bc83480f60cbaaf51ac94885c67162d9e2294973e8ee"
+  },
+  "hooksUserMerchantCenterUploadCatalogStatusQuery": {
+    "files": [
+      "vendor/37008-8e09b8b52e810217.mjs",
+      "vendor/44746-0026c7f1b26c901b.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/ExperienceBizNuxFullscreenContainer-d20e5d46cfece40c.mjs"
+    ],
+    "id": "45e4e9cad3cf9bbd1424ea2afe19ebe58166bcc78b18139e831be4fd0b0e41dd"
+  },
+  "mutations_CreateGbcMarketLocaleMutation": {
+    "files": [
+      "vendor/24305-4fad7b18bd6c0d3b.mjs"
+    ],
+    "id": "ec5574ce4c3eaa6ce95511b5fd64c2af59ed622458700df99b92931f10c479c7"
+  },
+  "mutations_CreateGbcMarketMutation": {
+    "files": [
+      "vendor/24305-4fad7b18bd6c0d3b.mjs"
+    ],
+    "id": "d552fa79b615f94bf12efa58bb313a707acdd0a403614fb0c45b3f0aaaaad13d"
+  },
+  "mutations_UpdateFeedProfileTaxMutation": {
+    "files": [
+      "vendor/24305-4fad7b18bd6c0d3b.mjs"
+    ],
+    "id": "afc0e3c031dc1c7b8f91a20e78fff56947fb555aa04cf6d68117ae7eb042be60"
+  },
+  "mutations_UpdateGbcMarketLocaleActiveStatusMutation": {
+    "files": [
+      "vendor/24305-4fad7b18bd6c0d3b.mjs"
+    ],
+    "id": "7efc2a6b5003e3a0d8bc63b74b0ddd7b1dcbed98c84ac67205fe4ca356bad87f"
+  },
+  "mutations_UpdateGbcMarketMutation": {
+    "files": [
+      "vendor/24305-4fad7b18bd6c0d3b.mjs"
+    ],
+    "id": "df938499ef3488a2da2a3cd4bb5830344822ead2ebf254b62990cb9cbbfd3702"
+  },
+  "useAddMerchantRegionMutation": {
+    "files": [
+      "vendor/43692-d1fe2e93189d2ad1.mjs"
+    ],
+    "id": "971a74deceec1a7f117c5a2189366e972be49770a0a15ee855e1e9904f49c636"
+  },
+  "useAddStoreMutation": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs"
+    ],
+    "id": "d9964813d00e9f61cd2687f6c31e3d56a8d3faadf32406b38d1f4a10a3518ada"
+  },
+  "useBoardFilterOptionsLoader_Pagination_Refetch_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "33e8300ca74897080df4ab213c1ca6cd026039e36da67e6e54d0dd67236165d0"
+  },
+  "useBoardFilterOptionsLoader_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "ad67202b2a2bcc144b96d142f1f6c0e760c6a89e427ecf3ccf72df2b94ab5676"
+  },
+  "useBoardSectionsLoader_Query": {
+    "files": [
+      "vendor/92310-913bbd16f46d4aa2.mjs"
+    ],
+    "id": "3137f4a00af4a8ec738bdfc2a25949350178d2df1264828488c1d8c8c23e48b9"
+  },
+  "useBulkJobPollerQuery": {
+    "files": [
+      "vendor/60989-0f8c8a5d5d14a63a.mjs"
+    ],
+    "id": "267880dfd58284f8b5c64bd0ba67fbd99254ffe0a4b940696040ee77369bc0ef"
+  },
+  "useBulkRegisterAndUploadMediaMutation": {
+    "files": [
+      "vendor/86444-526c320fd1e98ebe.mjs"
+    ],
+    "id": "e8439d799c7568f6a5d146afbb8d20b69d1e87e5577a203d1d1ec875a59de642"
+  },
+  "useBusinessLocationAddressSearch_autocompleteQuery": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "dc4d7fb90dab86302de3d8c8df9dbe6483f7c5b4f1b7b5395666f7793bce4027"
+  },
+  "useCatalogFilterOptionsLoader_Pagination_Refetch_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "5dd3301749a371ba9a7bcd918bb859a56d84ba98a2b035fe62f6f4476cd6ad5d"
+  },
+  "useCatalogFilterOptionsLoader_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "d182f8db86eca28ba050459aa23ed9692a08600bef5c7220a90d3095f0410d17"
+  },
+  "useCatalogNamesByMerchant_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "eac86e644720cde5db35795dcc51b19a5e1da4331d0e470a49b5f60d88608457"
+  },
+  "useCatalogTotalItemCountQuery": {
+    "files": [
+      "vendor/53877-df56f91e4adda8e0.mjs"
+    ],
+    "id": "48dde31a4916dd44bfbd4ea6c8ba13e26a26b4df1339b657cd9492a96fc37ed5"
+  },
+  "useCountriesDropdownQuery": {
+    "files": [
+      "vendor/app-common-react-components-auth-desktop-web-closeup-LeadGen-LeadGenCloseupBodyContent-483e84250a3125f0.mjs"
+    ],
+    "id": "4414c8c73f9ddd04d554cbd197fa0897831506786c6c9444566c6f9f1e7bd956"
+  },
+  "useCountriesListQuery": {
+    "files": [
+      "vendor/44860-ceb365aa103689a4.mjs",
+      "vendor/50259-435244991d2e787e.mjs",
+      "vendor/app-partner-business-access-react-common-sheet-sheet-components-ConversionSegmentForm-98a333c373b9007b.mjs",
+      "vendor/www/business/hub-84401988c16471cc.mjs"
+    ],
+    "id": "973805650d28cdcb65d50a80d582d884c922d4701565dd04fc2303154f3c2d23"
+  },
+  "useCrawledEventDomainsQuery": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "8078a781b1cff9c775ec8a0c5a69bf221919583f303a5679dc1ee7f060502ab3"
+  },
+  "useCreateAndStartCatalogsBulkExportRequestMutation": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs",
+      "vendor/43692-d1fe2e93189d2ad1.mjs",
+      "vendor/97063-0a94d6a1ad93dba5.mjs"
+    ],
+    "id": "4b3b59ace2b75f3db9810b480d24207a97b35d6dd980a997822f1a303a4b6389"
+  },
+  "useCreateAsyncJobRecord_Enhancements_Mutation": {
+    "files": [
+      "vendor/ArchiveEnhancementsConfirmationModalGa-6ffa4bceed02c570.mjs",
+      "vendor/PublishEnhancementsConfirmationModalGa-afce8ed26a95f265.mjs",
+      "vendor/UnarchiveEnhancementsConfirmationModalGa-808f22c33fb63aee.mjs",
+      "vendor/UnpublishEnhancementsConfirmationModalGa-eda57789b869380e.mjs"
+    ],
+    "id": "a7092bd178a5673469266256ff04208054f2089e612f00197e07368f2b1a4694"
+  },
+  "useCreateCatalogCreateCatalogMutation": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "85f94b7f7f7cbc8a99460f7faadbea08a3ae5bb2433cfdfb2db799838d52025a"
+  },
+  "useCreateCatalogsBulkImportRequestMutation": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs",
+      "vendor/43692-d1fe2e93189d2ad1.mjs",
+      "vendor/PromotionsCreateOrEditSideSheet-fe27a892d42964a7.mjs"
+    ],
+    "id": "57d029e807a54395a9024bdc8b5e3284a01137e9ed87ad4a8d3154f6bd583b3c"
+  },
+  "useCreateCrawledEventFeedProfileMutation": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "b9e294ac17a77c0eb6c10da27965cebae56bbd3a97582b6aac42322e185f76eb"
+  },
+  "useCreateCrawledPinAsyncJob_Mutation": {
+    "files": [
+      "vendor/49304-1667cb88b4308b7f.mjs"
+    ],
+    "id": "cf5e83920e3802a3adabe3c55abf84298a15d116ec2f4c4cae63666b00ba944c"
+  },
+  "useCreateOrEditAssetProfile_CreateAssetProfileMutation": {
+    "files": [
+      "vendor/45656-6827bd22e5ab6a28.mjs"
+    ],
+    "id": "5ef12ab6688731ba47f95d0a30b996ab07e2cecff81a5189900c05d6a810eefe"
+  },
+  "useCreateOrEditAssetProfile_UpdateAssetProfileMutation": {
+    "files": [
+      "vendor/45656-6827bd22e5ab6a28.mjs"
+    ],
+    "id": "23661aeebaa45fc74ba98e81a331447ad1efd102234ef8912e2f5aeef70cb377"
+  },
+  "useCreateOrGetMerchantCreateOrGetMerchantMutation": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "ed2bde8e7c30861912ce7271b2c0ce32c4057784d8328ddba71ed11a2f5e512c"
+  },
+  "useCreateOrUpdateBusinessLocationsMutation_CreateBusinessLocation": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "374a8f5cfff48871608aa4286ab65d39855dc82e31d047d01c68302e8ab78bf1"
+  },
+  "useCreateOrUpdateBusinessLocationsMutation_UpdateBusinessLocation": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "9b39a35d98a7ba038ece3489ca6f53f9ede723a20204f18a946c71f45da07b08"
+  },
+  "useCreateProductGroupMutation": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "e5a1a8fc76cf41f84ed662b7cecc68daa7c87e1b6154bac9b1b2c1f0c8e43d52"
+  },
+  "useCreateRMNCMutation": {
+    "files": [
+      "vendor/19665-88cd0caba549be62.mjs",
+      "vendor/5783-5d11fa762ab0ae0c.mjs"
+    ],
+    "id": "6a5990cac6caa5b21bb5cc6f459fdddd86fdae66dccf24c0254e07760fb86fb6"
+  },
+  "useCurrentUserQuery": {
+    "files": [
+      "vendor/19329-36f59d57e3988e50.mjs",
+      "vendor/53877-df56f91e4adda8e0.mjs",
+      "vendor/60989-0f8c8a5d5d14a63a.mjs",
+      "vendor/79069-7aac07f5d24e126f.mjs",
+      "vendor/82507-2203dbef0be0e872.mjs",
+      "vendor/9511-4a5588f7790504b1.mjs",
+      "vendor/CreativeOverlaysAssignmentRuleCreateOrEditSideSheet-ad373efbc6ea07b0.mjs",
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "a336733c8fc4426779f2a75897e317422bd79187b82bcbb247267138b6223f95"
+  },
+  "useDefaultCountryLanguageOnDeleteMutation": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "f44876bb811f49d87941cd079646cdeb2000b5b90bd8b459929e1ab9150da517"
+  },
+  "useDeleteAssetProfileMutation": {
+    "files": [
+      "vendor/45656-6827bd22e5ab6a28.mjs"
+    ],
+    "id": "26e4c1de3c0f55c30ab7f5df617ca9acd6b78ff39d135db710b32f5884e13348"
+  },
+  "useDeleteAssignmentRuleMutation": {
+    "files": [
+      "vendor/DeleteAssignmentRuleConfirmationModalDataContainer-eb7951b49e6d5533.mjs"
+    ],
+    "id": "7b79118605403074e4eb6053e8e2278225c73bc306c0ab8cc9866d75a2c4013f"
+  },
+  "useDeleteMediaUploadMutation": {
+    "files": [
+      "vendor/86444-526c320fd1e98ebe.mjs"
+    ],
+    "id": "bae0ca17e229e6956a73b5b13b42edfcdee508299f7d31cea468df00b8274306"
+  },
+  "useDeleteSubRulesMutation": {
+    "files": [
+      "vendor/DataSourcesFieldRulesTabContent-f025bac48d8685fa.mjs"
+    ],
+    "id": "f7ddff266f4222a3e59099d3778c2f337d4d4df28cf5a4bea71f213869ac240f"
+  },
+  "useDwebSeoPinTopInterestQuery": {
+    "files": [
+      "vendor/65813-96c695d42824cea7.mjs",
+      "vendor/88194-714c8fd2d0cd4939.mjs"
+    ],
+    "id": "efb2679fafab4695fdfd7c81212ac8da0ec6770150d44de39cff25abd30a2f1a"
+  },
+  "useEditBioMutation": {
+    "files": [
+      "vendor/50723-97921f6920d6c5cb.mjs"
+    ],
+    "id": "286010dbee050d2bc8bb8121e602a35224ba5fb6158cab0343343da3bab539e3"
+  },
+  "useEditNameMutation": {
+    "files": [
+      "vendor/44778-49eabb303d43093c.mjs",
+      "vendor/94056-959aee934776def2.mjs"
+    ],
+    "id": "e754f4d0bf295b7b5717fb3bc4aaf6750e50fb78a618aca50be1c535f27e49b9"
+  },
+  "useEnhancedItemsHooksRefetchQuery": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "6865346b7c4fc9179c2f15cc0040e6489ebb5d2c6ec6bd06ee54bd33d7b1aad1"
+  },
+  "useExecuteAssetProfileIngestionMutation": {
+    "files": [
+      "vendor/28766-0ff775c343270687.mjs",
+      "vendor/31600-e6718ccd95cc2e44.mjs",
+      "vendor/3453-ef19b42c7c376159.mjs",
+      "vendor/53609-00f3ec20a9ddd50d.mjs",
+      "vendor/75776-d021dfb879285412.mjs"
+    ],
+    "id": "ae163208616b722cd0d5849a64b2765288cda780949c8d5d3ed175fa722ba75f"
+  },
+  "useFilterValueDisplayTextRefetchQuery": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "030ccb50df5aa57b3da2d1fb118b14294bf102e897e110cfc61b2ca3c38150d6"
+  },
+  "useFilteredItemInfoQuery_Query": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs",
+      "vendor/24500-ce91cead31814058.mjs",
+      "vendor/2969-ea5cddfec8e0d21a.mjs",
+      "vendor/49304-1667cb88b4308b7f.mjs",
+      "vendor/5783-5d11fa762ab0ae0c.mjs"
+    ],
+    "id": "45c716d1204eb3371a51ed6f42180b07134270f8e06eee98952a7894e7a95c62"
+  },
+  "useGMCWebsiteVerificationEnabledEligibilityQuery": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs",
+      "vendor/85891-022e3a89d3f9eb39.mjs",
+      "vendor/www/settings/claim-0efa42670d447b09.mjs"
+    ],
+    "id": "0330127c11423b8c51e06d5826a26e6f634a7ca07ff9aa70345724222118aa05"
+  },
+  "useGbcApprovedTranslationsQueryQuery": {
+    "files": [
+      "vendor/53877-df56f91e4adda8e0.mjs"
+    ],
+    "id": "4a57bfb799a6b4629a9c138dd1dfd6eb9cf9c6eca6f4c405b9f616174682099b"
+  },
+  "useGbcTranslationsQueryQuery": {
+    "files": [
+      "vendor/53877-df56f91e4adda8e0.mjs"
+    ],
+    "id": "1b2b2e9f6d0001a61d53f84e5134039eed2f2ae298a04167acf45bec30916796"
+  },
+  "useGetActiveCampaignsByProductGroupIdQuery": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "96b1024bf7b2f9cf442a7b12d93f915bef84086f96f79af0524fcc7e9ebd91c9"
+  },
+  "useHasEligibleItems_enhancements_filteredItemInfo_Query": {
+    "files": [
+      "vendor/37699-82c8f6571611a802.mjs",
+      "vendor/EnhancementSettingsSideSheet-a1d45a939099195f.mjs"
+    ],
+    "id": "f15e26c3ec2f93d842ee9f5658fac2ddce381b3e628dd2e599136e4d50fe0320"
+  },
+  "useHasEligibleTitleAndDescriptionItems_filteredItemInfo_Query": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "8bd42003843760a904f83074a4e48d62239758e750972fb55ac5de3c56784ab0"
+  },
+  "useInstagramSourceFilterEnabledQuery": {
+    "files": [
+      "vendor/38325-8dd91a9323da80c0.mjs"
+    ],
+    "id": "96067762140fffd2e0c10462485e3692fdd8c9a3bcd6ef8817df3b3225ca16e0"
+  },
+  "useLocaleData_MarketLocalesQuery": {
+    "files": [
+      "vendor/24305-4fad7b18bd6c0d3b.mjs"
+    ],
+    "id": "eedd5ed82a66ab3d88799d4de1297a3c39f278b7e36461f3a460d7c3cb2a6728"
+  },
+  "useLocalesQuery": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "03ef190b6b13aec873fc7bb234508957520bb73ea6b58257ad735ba59fc7c8a0"
+  },
+  "useMarketConfigsQuery": {
+    "files": [
+      "vendor/24305-4fad7b18bd6c0d3b.mjs",
+      "vendor/53877-df56f91e4adda8e0.mjs",
+      "vendor/www/business/hub-84401988c16471cc.mjs"
+    ],
+    "id": "0b8addc64bac61c6334b971fcea30d1be2c271feae9f088f55179815e854591b"
+  },
+  "useMarketDetailsDataLocalesQuery": {
+    "files": [
+      "vendor/8951-390b1381f974f3d3.mjs"
+    ],
+    "id": "322c4454ed5fbd20b3899119ed6d73d291f2ed14769593ac3e9a568e2f9cf9dc"
+  },
+  "useMarketLocalesMapQuery": {
+    "files": [
+      "vendor/84208-6cc29d808285179a.mjs"
+    ],
+    "id": "11f5859589bc02a93ffa889f5823bd2e670f4db645fc3ecbc6a442707a3dccaa"
+  },
+  "useMarketMetricsQuery": {
+    "files": [
+      "vendor/84208-6cc29d808285179a.mjs"
+    ],
+    "id": "0daac9cd7174d123b8a94f24936236201e7d1473e17d0c0e230726b4faf501d7"
+  },
+  "useMarketReviewLocaleMapQuery": {
+    "files": [
+      "vendor/84208-6cc29d808285179a.mjs",
+      "vendor/www/business/hub-84401988c16471cc.mjs"
+    ],
+    "id": "95090659aef41849ac72445a92aa7eeb882a788956405bda583d5e564f07a229"
+  },
+  "useMerchantPreferenceMapRefetchQuery": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "e3ff1bd7a6d3c7361f3c337b61146431175269ebc5ae8f9746363a3091e60a6d"
+  },
+  "useMerchantPreferenceMapUpdateMerchantMetadataMutation": {
+    "files": [
+      "vendor/66594-5001779bed981598.mjs"
+    ],
+    "id": "2027bfdfa32b365d36f9081a9ff562f29811e6b9298f525fac2450025f29624b"
+  },
+  "useMerchantSetupDataActionsMutationAdsQuery": {
+    "files": [
+      "vendor/36344-5e37c632f4cb3d2c.mjs"
+    ],
+    "id": "dfdadbc2b35e3a05a79a786d18ea85e171e1933c2693eae941be9701bdd8a1af"
+  },
+  "useMerchantSetupDataQueryAdsQuery": {
+    "files": [
+      "vendor/36344-5e37c632f4cb3d2c.mjs"
+    ],
+    "id": "be6167004fa680354474e722900e55dd74333dc7538dce6d78b959cef7acd84c"
+  },
+  "useMerchantSetupDataResetMutationAdsQuery": {
+    "files": [
+      "vendor/36344-5e37c632f4cb3d2c.mjs"
+    ],
+    "id": "8664a3b2f58a9bb86773083ca6626820c581c64d800c277c5290e8b13b60348e"
+  },
+  "usePromoteProductGroupQuery": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "df47eff6eba773d82652b46c47f86fc6eb9907af1a62ef21fa1010fd43fa6f4e"
+  },
+  "usePublishModalProductGroupBreakdownRefetchQuery": {
+    "files": [
+      "vendor/PublishEnhancementsConfirmationModalGa-afce8ed26a95f265.mjs"
+    ],
+    "id": "c72a5f4a57d2fcdf14689b2553c5783a17540f037d227be6edc99df71d1fc7c1"
+  },
+  "useRecommendedOverlayRatios_Query": {
+    "files": [
+      "vendor/83209-ff92743498902523.mjs"
+    ],
+    "id": "ddd77e273f2dd7301707417ed920a9adc9470a7bde1ca798ebf817f080dc3401"
+  },
+  "useRefetchActiveEnhancementCountQuery": {
+    "files": [
+      "vendor/PublishEnhancementsConfirmationModalGa-afce8ed26a95f265.mjs"
+    ],
+    "id": "90d48aa1bd41f2924677b674f0febdf381cb679834b2e9b4a49f762bee89faba"
+  },
+  "useRegisterAndUploadMediaMutation": {
+    "files": [
+      "vendor/86444-526c320fd1e98ebe.mjs"
+    ],
+    "id": "ed80500701b3f99422e5a61560df28e063b2fb1637a66ef500a81eefccf82e3d"
+  },
+  "useRemoveProfilePhotoMutation": {
+    "files": [
+      "vendor/32306-c1b674625e76faeb.mjs",
+      "vendor/50723-97921f6920d6c5cb.mjs"
+    ],
+    "id": "8c91bec70e0a31e8e453fce0b4da0023d99e4e43670b8c3160c1abfca45275cd"
+  },
+  "useReportDownloadReportReadyQuery": {
+    "files": [
+      "vendor/60026-a3bbf8b772f343f2.mjs"
+    ],
+    "id": "328ab16e937f9181964ce42f65ccc97f7599fdef1502d2fad3a8cb4bf94b6031"
+  },
+  "useReportDownloadRequestReportMutation": {
+    "files": [
+      "vendor/60026-a3bbf8b772f343f2.mjs"
+    ],
+    "id": "e7b9a5ed038855552df7a94bffc25dad87411eb545d36a3759124dcf77b2bb57"
+  },
+  "useS3LinkGeneratorGetS3LinkMutation": {
+    "files": [
+      "vendor/45656-6827bd22e5ab6a28.mjs",
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "040fc83b8b3f2863238944913a491bff91f45d679839044835e8462bc588265e"
+  },
+  "useSetupSubmit_MarketConfigsRefetchQuery": {
+    "files": [
+      "vendor/24305-4fad7b18bd6c0d3b.mjs"
+    ],
+    "id": "5c7c63058f443d9992d330e3b1a63c722a1cae0fb737c28263a847915030a2a5"
+  },
+  "useShowLocalInventoryStepTwoUpsell_Query": {
+    "files": [
+      "vendor/24500-ce91cead31814058.mjs"
+    ],
+    "id": "efda4759752348f991c0aa9de5b5a3e5758c8d4dcb43c150136ac5f821119c73"
+  },
+  "useStartBulkImportRequestMutation": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs",
+      "vendor/43692-d1fe2e93189d2ad1.mjs",
+      "vendor/PromotionsCreateOrEditSideSheet-fe27a892d42964a7.mjs"
+    ],
+    "id": "be62cd47077ce31626892ade22fb135a14782070e646c662e0a6ca9ee2f7b1c4"
+  },
+  "useSubmitFeedProfileAddFeedMutation": {
+    "files": [
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "6e1e5d5801b7ce21e7fcc04a64925950df8995f17fee040f9a4d7a5674f3495d"
+  },
+  "useSubmitFeedProfileUpdateFeedMutation": {
+    "files": [
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs"
+    ],
+    "id": "39a0822f7c3ac7a2551f19391bda71f511fba3c8f4809cd59b4809282c2e13f2"
+  },
+  "useSubmitGbcApprovalMutation": {
+    "files": [
+      "vendor/53877-df56f91e4adda8e0.mjs"
+    ],
+    "id": "c1a5c6b8586e46e94843ee49023339e6b4f0dce9399364c25d8295077d2fb397"
+  },
+  "useTagFilterOptionsLoader_Pagination_Refetch_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "df50290d901cec288b441fe85e69e007ea108ec9273826a380f840e0695bdb8e"
+  },
+  "useTagFilterOptionsLoader_Query": {
+    "files": [
+      "vendor/76515-9bcb04afdc9cf047.mjs"
+    ],
+    "id": "10e0fc705ac0439d2cb78f1ef7d6871deb58157ddb01fad0881d818acadd347e"
+  },
+  "useToggleCatalogEnhancementStatus_CatalogEnhancementStatus_Mutation": {
+    "files": [
+      "vendor/37699-82c8f6571611a802.mjs",
+      "vendor/87027-fe0d3bdf17e29fc6.mjs",
+      "vendor/EnhancementSettingsSideSheet-a1d45a939099195f.mjs",
+      "vendor/PublishEnhancementsConfirmationModalGa-afce8ed26a95f265.mjs"
+    ],
+    "id": "0a3e5f0457496eb7bee81bbf2fe2802ce5130c01c054f2abb32184d001ba7a0c"
+  },
+  "useTriggerOnDemandIngestionMutation": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs",
+      "vendor/DataSourcesCreateOrEditSideSheet-e4207ac8539a5444.mjs",
+      "vendor/SupplementalDataSourcesCreateOrEditSideSheet-41268674f0ba8671.mjs"
+    ],
+    "id": "3166b9b010e89fb90956bd5b30a060dbef5b7fba79cdc87c4171a4daaa040eec"
+  },
+  "useTriggerOnDemandIngestionReportGenerationMutation": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "7737cf9afd4f2d089c6a345c2e29e0d416d3588feebc8b4579ee86a917cf142d"
+  },
+  "useUpdateCatalogEmailListMutation": {
+    "files": [
+      "vendor/22297-bfe1199327c1c5f8.mjs"
+    ],
+    "id": "5a9953e09efe8e0df09816b8d907a3073cc85b16e176d63bbe0ac588ff0ea516"
+  },
+  "useUpdateInstagramFeedMutation": {
+    "files": [
+      "vendor/13091-e15c803393bddaff.mjs"
+    ],
+    "id": "b63802e34aedb047c5af0274f8adadbbedf46ea789d83f4b69fdca3486c63d13"
+  },
+  "useUpdateMerchantRegionMutation": {
+    "files": [
+      "vendor/43692-d1fe2e93189d2ad1.mjs"
+    ],
+    "id": "ac0d807ff40dbbd2df3bf4639e198766da6fef90f3f03d4555df6f2b0513bf49"
+  },
+  "useUpdateProductGroupMutation": {
+    "files": [
+      "vendor/59038-623c93ba7fe46618.mjs"
+    ],
+    "id": "d0841c06d562f388efb638239eb2786968a479384a2d5e237a87330adff2ec0e"
+  },
+  "useUpdateProductPinFeedProfileStatusMutation": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "561aff5588edf3d5416b2617bc517b37600442088713ec51b9a21f15220a5d8e"
+  },
+  "useUpdateRMNCMutation": {
+    "files": [
+      "vendor/19665-88cd0caba549be62.mjs",
+      "vendor/5783-5d11fa762ab0ae0c.mjs"
+    ],
+    "id": "cf0a464255730a2070010aa7146cf9846e936034febbb81345098e6a7f137eb6"
+  },
+  "useUpdateStoreMutation": {
+    "files": [
+      "vendor/2287-486fb10297b534a4.mjs"
+    ],
+    "id": "bda3b8ccb4c75ca6d2dab5907969717acf8d310c535222e37262127254e8f1f3"
+  },
+  "useUpdateSupplementalFeedProfileStatusMutation": {
+    "files": [
+      "vendor/45827-6cb19e9052bd89eb.mjs"
+    ],
+    "id": "cf691550ae65c9b005cf1b6482d3a149c10ae3474bb9313f661057123682b2e1"
+  },
+  "useUpsertCountryLocaleMappingMutation": {
+    "files": [
+      "vendor/28766-0ff775c343270687.mjs",
+      "vendor/8883-b8a2734afcb701aa.mjs"
+    ],
+    "id": "ddf6cba504696433d694047cf76c94f57d1b937d31f612a5117d322ac8625ffa"
+  },
+  "useUpsertFieldRulesMutation": {
+    "files": [
+      "vendor/DataSourcesFieldRulesTabContent-f025bac48d8685fa.mjs"
+    ],
+    "id": "1f5974618473ddf915c1c6e806709741ecefe4c3479547e4d37d1d142b4f4009"
+  }
+}

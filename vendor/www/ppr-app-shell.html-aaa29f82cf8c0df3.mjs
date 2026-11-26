@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[46158],{869575(){let n=function(){return null};"u">typeof window&&(window.__PWS_LOADED_HANDLERS__=window.__PWS_LOADED_HANDLERS__||[]).push(["www/ppr-app-shell.html",function(){return n}])}},function(n){n(n.s=869575)}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/www/ppr-app-shell.html-aaa29f82cf8c0df3.mjs.map

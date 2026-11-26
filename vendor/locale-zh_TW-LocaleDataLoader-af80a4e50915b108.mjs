@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[24479],{295476(n,o,r){r.r(o);var e=r(895829),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},895829(n,o,r){n.exports={locale:"zh-TW",i18nStrings:void 0,catalogSource:void 0,plural:r(90411)}},90411(n){n.exports=function(n){return 0}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-zh_TW-LocaleDataLoader-af80a4e50915b108.mjs.map

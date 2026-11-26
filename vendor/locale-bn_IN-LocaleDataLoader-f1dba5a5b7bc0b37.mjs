@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[62655],{890176(n,o,r){r.r(o);var e=r(140449),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},140449(n,o,r){n.exports={locale:"bn-IN",i18nStrings:void 0,catalogSource:void 0,plural:r(710927)}},710927(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-bn_IN-LocaleDataLoader-f1dba5a5b7bc0b37.mjs.map

@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[79141],{668767(n,o,_){let e=_(944576).A;"u">typeof window&&(window.__PWS_LOADED_HANDLERS__=window.__PWS_LOADED_HANDLERS__||[]).push(["www/password/reset",function(){return e}])}},function(n){n.O(0,[13982,26022,29868,31884,32367,32439,38680,5325,68182,71543,73633,74352,75303,78180,80170,8027,83107,85099,90686,91055,91796,92007,93450],function(){return n(n.s=668767)}),n.O()}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/www/password/reset-70327df69a5948da.mjs.map

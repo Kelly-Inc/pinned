@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[59355],{352897(n,o,_){let e=_(902559).A;"u">typeof window&&(window.__PWS_LOADED_HANDLERS__=window.__PWS_LOADED_HANDLERS__||[]).push(["www/board/[id]/edit/collaborators",function(){return e}])}},function(n){n.O(0,[13982,26022,31884,34353,35779,5325,68182,69072,71543,78180,85099,91796],function(){return n(n.s=352897)}),n.O()}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/www/board/[id]/edit/collaborators-9c1ddde15525f8dd.mjs.map

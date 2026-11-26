@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[51568],{558391(n,e,_){let o=_(455233).A;"u">typeof window&&(window.__PWS_LOADED_HANDLERS__=window.__PWS_LOADED_HANDLERS__||[]).push(["www/age-appeal/redirect",function(){return o}])}},function(n){n.O(0,[19821,31884,5325,71543,78180,91796],function(){return n(n.s=558391)}),n.O()}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/www/age-appeal/redirect-a5f8202a07a7c7bb.mjs.map

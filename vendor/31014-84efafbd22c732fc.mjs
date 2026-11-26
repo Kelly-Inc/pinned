@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[31014],{222917(e,a,t){t.r(a);var d=t(422958);function n(e,a){switch(e=e||d.A,a.type){case"IDEA_PIN_ACTIVE_PAGE":return{...e,activePage:a.payload.activePage};case"IDEA_PIN_DYNAMIC_WIDTH":return{...e,dynamicWidth:a.payload.dynamicWidth};default:return e}}t.d(a,{default:()=>n})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/31014-84efafbd22c732fc.mjs.map

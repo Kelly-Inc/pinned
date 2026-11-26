@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[27903],{309634(e,n,s){s.r(n);var t=s(768540),o=s(923119),r=s(516001),a=s(312954),c=s(493532);function f({user:e}){return(0,o.useEffect)(()=>{(0,t.A)("BasePage","/app/common/react/components/WebMentorship/BasePage.tsx")},[]),(0,c.Y)(r.A,{alignItems:"stretch",justifyContent:"center",children:(0,c.FD)(a.A,{color:"default",size:"700",children:[e,"'s Page"]})})}s.d(n,{default:()=>f})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/27903-69130c7de6768f2f.mjs.map

@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[82223],{237140(o,n,r){r.r(n);var e=r(605621),t=r.n(e);function l({children:o}){return o(t())}r.d(n,{default:()=>l})},605621(o,n,r){o.exports={locale:"ko-KR",i18nStrings:void 0,catalogSource:void 0,plural:r(244811)}},244811(o){o.exports=function(o){return 0}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-ko_KR-LocaleDataLoader-affaae0c815587af.mjs.map

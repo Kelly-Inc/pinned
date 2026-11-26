@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[49419],{845092(n,_,e){let o=e(258172).A;"u">typeof window&&(window.__PWS_LOADED_HANDLERS__=window.__PWS_LOADED_HANDLERS__||[]).push(["www/[username]/[slug]/more_ideas",function(){return o}])}},function(n){n.O(0,[5325,781,91796],function(){return n(n.s=845092)}),n.O()}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/www/[username]/[slug]/more_ideas-66f0056dc09a5733.mjs.map

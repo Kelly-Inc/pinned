@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[63652],{438235(n,o,r){r.r(o);var e=r(120798),l=r.n(e);function t({children:n}){return n(l())}r.d(o,{default:()=>t})},120798(n,o,r){n.exports={locale:"el-GR",i18nStrings:void 0,catalogSource:void 0,plural:r(339644)}},339644(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-el_GR-LocaleDataLoader-d47f0be7cd457dac.mjs.map

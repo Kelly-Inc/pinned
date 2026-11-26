@@ -1,0 +1,18 @@
+{
+  "name": "pinned",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pinned: a self-hosted Pinterest alternative. The Pinterest web client running against your own Node + SQLite backend.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1"
+  },
+  "license": "UNLICENSED"
+}

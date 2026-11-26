@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[37742],{878309(n,o,r){r.r(o);var e=r(376640),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},376640(n,o,r){n.exports={locale:"af-ZA",i18nStrings:void 0,catalogSource:void 0,plural:r(187802)}},187802(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-af_ZA-LocaleDataLoader-8feccc06fc357d5e.mjs.map

@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[31623],{855410(e,i,n){var o=n(599733);function s(e){return{initializeComposerWasm:{kind:"Client",composerPromiseResultRef:o.Dk.initialize()}}}n.d(i,{default:()=>s})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/loader__collage-creation-tool-ba0d212ba3299783.mjs.map

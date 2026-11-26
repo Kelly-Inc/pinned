@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[32770],{81313(n,e,a){var r=a(597808),o=a(680102);function s(n){let e=(0,o.qJ)();if(!n.isAuth||!n.isCandidateForParentalControlPasscode)return!1;let{checkExperiment:a}=(0,r.A)();return e?a("dweb_ps_parental_controls_v1").anyEnabled:a("mweb_ps_parental_controls_v1").anyEnabled}a.d(e,{A:()=>s})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/app-www-UserSettingsPage-UserSettingsDesktopPageWrapper-653ac9ab5ca68a25.mjs.map

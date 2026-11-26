@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[48419],{730990(e,a,t){t.r(a);var o=t(768540),r=t(923119),s=t(957476),u=t(493532);function d(){return(0,r.useEffect)(()=>{(0,o.A)("MediaNetworkCatalogProductGroupDetails","/app/partner/catalogsV3/pages/MediaNetworkCatalogProductGroupDetails.tsx")},[]),(0,u.Y)(s.default,{})}t.d(a,{default:()=>d})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/48419-c48d124630acf54f.mjs.map

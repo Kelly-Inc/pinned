@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[90108],{277311(n,o,r){r.r(o);var e=r(115762),t=r.n(e);function u({children:n}){return n(t())}r.d(o,{default:()=>u})},115762(n,o,r){n.exports={locale:"hu-HU",i18nStrings:void 0,catalogSource:void 0,plural:r(530872)}},530872(n){n.exports=function(n){return 1!=+n}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-hu_HU-LocaleDataLoader-e99a94f0c985dcdc.mjs.map

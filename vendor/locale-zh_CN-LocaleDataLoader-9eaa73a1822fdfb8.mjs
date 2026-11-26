@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[12383],{924872(n,o,r){r.r(o);var e=r(780729),t=r.n(e);function l({children:n}){return n(t())}r.d(o,{default:()=>l})},780729(n,o,r){n.exports={locale:"zh-CN",i18nStrings:void 0,catalogSource:void 0,plural:r(590439)}},590439(n){n.exports=function(n){return 0}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-zh_CN-LocaleDataLoader-9eaa73a1822fdfb8.mjs.map

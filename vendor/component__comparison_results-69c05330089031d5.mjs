@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[20223],{841788(e,s,a){var p=a(768540),o=a(923119),r=a(23583),t=a(493532);function n(){return(0,o.useEffect)(()=>{(0,p.A)("CompareResultsPage","/app/www/pages/compare/CompareResultsPage.tsx")},[]),(0,t.Y)(r.C5,{replace:!0,to:"/"})}a.d(s,{default:()=>n})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/component__comparison_results-69c05330089031d5.mjs.map
