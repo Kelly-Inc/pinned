@@ -265,7 +265,7 @@ npm run routes     # list every API endpoint
 npm run check      # verify all imports resolve
 ```
 
-The tests run on every push through GitHub Actions.
+The tests run on every push through GitHub Actions. If you're an AI agent picking up this project, start with [HANDOFF.md](HANDOFF.md).
 
 ## Status
 
