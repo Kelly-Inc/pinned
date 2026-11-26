@@ -15,10 +15,10 @@ export function get(ctx) {
       .map((b) => boardShape(b, ctx.origin));
     return { ...base, results };
   }
-  const limit = Math.min(Number(ctx.options.page_size) || 100, 250);
+  const limit = Math.max(1, Math.min(Math.trunc(Number(ctx.options.page_size)) || 100, 250));
   return {
     ...base,
-    results: pinsShape(searchPins(query, limit), ctx.origin),
+    results: pinsShape(searchPins(query, limit, { ownPins: scope === 'my_pins' }), ctx.origin),
     shouldAppendGlobalSearch: false,
     sensitivity: 'none',
     queryL1VerticalIds: [],

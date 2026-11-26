@@ -90,3 +90,8 @@ test('you cannot follow yourself', async () => {
   await c.raw(`/v3/users/${c.username}/follow/`, { method: 'PUT' });
   assert.equal((await c.resource('UserResource', { username: c.username })).following_count, 0);
 });
+
+test('the Updates feed sends an empty list to a new account', async () => {
+  const c = await new Client(server.url).signup();
+  assert.deepEqual(await c.api('get', '/v3/news_hub/feed/'), []);
+});

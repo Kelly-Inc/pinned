@@ -145,3 +145,21 @@ test('profile favorites and created pins can be filtered separately or together'
   await c.api('delete', favorite);
   assert.deepEqual((await filtered('FAVORITED')).map((pin) => pin.id), [own.id]);
 });
+
+test('search suggestions are distinct, limited and scoped to the requested collection', async () => {
+  const c = await new Client(server.url).signup();
+  const other = await new Client(server.url).signup();
+  const local = await c.publishPin({ title: 'Terrarium plants' });
+  const saved = await other.publishPin({ title: 'Terrarium tools' });
+  await other.publishPin({ title: 'Terrarium glass' });
+  await other.publishPin({ title: 'terrarium plants' });
+  await c.resource('RepinResource', { pin_id: saved.id }, 'create');
+
+  const suggest = (options) => c.resource('AdvancedTypeaheadResource', { term: 'TERRARIUM', ...options });
+  const { items } = await suggest({ pin_scope: 'my_pins' });
+  assert.deepEqual(items.map(({ query }) => query), ['Terrarium plants', 'Terrarium tools']);
+  assert.deepEqual((await suggest({ count: 2 })).items.map(({ query }) => query), ['Terrarium plants', 'Terrarium glass']);
+  assert.deepEqual((await suggest({ term: '' })).items, []);
+  const results = await c.resource('BaseSearchResource', { scope: 'my_pins', query: 'Terrarium' });
+  assert.deepEqual(new Set(results.results.map(({ id }) => id)), new Set([local.id, saved.id]));
+});

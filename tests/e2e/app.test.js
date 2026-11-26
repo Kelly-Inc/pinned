@@ -87,6 +87,14 @@ test('publish a pin through the pin builder', { skip }, async () => {
   assert.match(await text(), /E2E blue pin/);
 });
 
+test('a search suggestion opens matching Pins', { skip }, async () => {
+  await page.goto(base + '/');
+  await page.getByRole('combobox', { name: 'Search' }).fill('E2E bl');
+  await page.getByRole('option').filter({ hasText: 'E2E blue pin' }).click();
+  await page.waitForURL((url) => url.searchParams.get('q') === 'E2E blue pin');
+  await page.getByRole('link', { name: /E2E blue pin pin page/i }).first().waitFor();
+});
+
 test('the pin shows on the profile Pins tab', { skip }, async () => {
   const username = await page.evaluate(() => JSON.parse(document.getElementById('__PWS_DATA__').textContent).context.user.username);
   await go(`/${username}/_pins/`, 4000);
@@ -174,6 +182,13 @@ test('dark theme applies after reload', { skip }, async () => {
   const theme = await page.evaluate(() => JSON.parse(document.getElementById('__PWS_DATA__').textContent).context.theme);
   assert.equal(theme, 'dark');
   await page.evaluate(() => localStorage.removeItem('theme'));
+});
+
+test('the Updates panel opens for an account with no activity', { skip }, async () => {
+  await page.goto(base + '/');
+  await page.getByRole('button', { name: 'Updates', exact: true }).click();
+  await page.getByText('Updates are on their way', { exact: true }).waitFor();
+  await page.getByRole('heading', { name: 'Home', exact: true }).waitFor();
 });
 
 test('no page errors or off-site navigation happened', { skip }, () => {

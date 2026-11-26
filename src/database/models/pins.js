@@ -43,15 +43,19 @@ export function boardPins(boardId, limit = 200) {
 }
 
 /** Case-insensitive match on title, description and tags; any word matches. */
-export function searchPins(query, limit = 100) {
+export function searchPins(query, limit = 100, { ownPins = false } = {}) {
   const needles = String(query || '').toLowerCase().split(/\s+/).filter(Boolean);
-  if (!needles.length) return listPins({ limit });
-  return db.prepare('SELECT * FROM pins ORDER BY rowid DESC LIMIT 500').all()
-    .filter((pin) => {
-      const haystack = `${pin.title} ${pin.description} ${pin.tags}`.toLowerCase();
-      return needles.some((needle) => haystack.includes(needle));
-    })
-    .slice(0, limit);
+  if (!ownPins && !needles.length) return listPins({ limit });
+  const candidates = ownPins
+    ? profilePins(currentUserId(), -1)
+    : db.prepare('SELECT * FROM pins ORDER BY rowid DESC').iterate();
+  const matches = [];
+  for (const pin of candidates) {
+    if (matches.length >= limit) break;
+    const haystack = `${pin.title} ${pin.description} ${pin.tags}`.toLowerCase();
+    if (!needles.length || needles.some((needle) => haystack.includes(needle))) matches.push(pin);
+  }
+  return matches;
 }
 
 export function createPin({ title = '', description = '', link = '', imagePath = '', width = 600, height = 900, tags = [] }) {
@@ -101,4 +105,18 @@ export function pinCounts(pinId) {
 
 export function pinTags(pin) {
   try { return JSON.parse(pin.tags || '[]'); } catch { return []; }
+}
+
+// Suggest distinct titles from pins that are in the requested search scope.
+export function suggestPinTitles(term, limit, { ownPins }) {
+  return db.prepare(`
+    SELECT MIN(trim(p.title)) AS title FROM pins p
+    WHERE instr(lower(trim(p.title)), lower(?)) > 0
+      AND (NOT ? OR p.pinner_id = ? OR EXISTS (
+        SELECT 1 FROM saves s WHERE s.pin_id = p.id AND s.user_id = ?
+      ))
+    GROUP BY lower(trim(p.title))
+    ORDER BY instr(lower(trim(p.title)), lower(?)), COUNT(*) DESC, lower(trim(p.title))
+    LIMIT ?
+  `).all(term, Number(ownPins), currentUserId(), currentUserId(), term, limit);
 }

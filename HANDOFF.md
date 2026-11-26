@@ -186,9 +186,8 @@ Roughly in priority order:
 
 - [ ] **Notifications feed and messages:** nothing is implemented; the bell and
   inbox are empty.
-- [ ] **Search:** title and description substring match only. No typeahead
-  suggestions (`AdvancedTypeaheadResource` returns empty items; the item shape
-  is unverified) and no filters.
+- [ ] **Search:** local text matching and Pin title suggestions are supported.
+  Rich filters, board-specific suggestions and search history are open.
 - [ ] **Video pins:** only image uploads are handled.
 - [ ] **Board sections, collaborators and archive** are not supported.
 - [ ] **Pin page cosmetics:** there are two back arrows, and a "Find it. Love it.
