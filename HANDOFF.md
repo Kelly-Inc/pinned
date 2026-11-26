@@ -184,8 +184,8 @@ Most of this work is reverse-engineering. The workflow that works:
 
 Roughly in priority order:
 
-- [ ] **Notifications feed and messages:** nothing is implemented; the bell and
-  inbox are empty.
+- [ ] **Notifications feed and messages:** Updates shows new follows and
+  comments with a badge. Other activity types and messaging are open.
 - [ ] **Search:** local text matching and Pin title suggestions are supported.
   Rich filters, board-specific suggestions and search history are open.
 - [ ] **Video pins:** only image uploads are handled.

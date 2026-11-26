@@ -95,3 +95,48 @@ test('the Updates feed sends an empty list to a new account', async () => {
   const c = await new Client(server.url).signup();
   assert.deepEqual(await c.api('get', '/v3/news_hub/feed/'), []);
 });
+
+test('follows and comments create private Updates with a clearable badge', async () => {
+  const owner = await new Client(server.url).signup();
+  const actor = await new Client(server.url).signup(undefined, undefined, 'Activity Tester');
+  const feed = (client) => client.api('get', '/v3/news_hub/feed/');
+  const badge = async () => (await owner.resource('NewsHubBadgeResource')).news_hub_count;
+  const follow = `/v3/users/${owner.id}/follow/`;
+  await actor.api('create', follow);
+  await actor.api('create', follow);
+  const pin = await owner.publishPin();
+  await owner.resource('AggregatedCommentResource', { pinId: pin.id, text: 'My comment' }, 'create');
+  await actor.resource('AggregatedCommentResource', { pinId: pin.id, text: 'A new comment' }, 'create');
+
+  assert.deepEqual(await feed(actor), []);
+  assert.equal(await badge(), 2);
+  const [comment, followed] = await feed(owner);
+  assert.equal(comment.override_click_url, `/pin/${pin.id}/`);
+  assert.equal(followed.override_click_url, `/${actor.username}/`);
+  const hide = (client) => client.api('update', '/v3/news_hub/hide/batch/', { news_ids: [comment.id], should_hide: true });
+  await hide(actor);
+  assert.equal((await feed(owner)).length, 2);
+  await hide(owner);
+  assert.deepEqual((await feed(owner)).map((item) => item.id), [followed.id]);
+  assert.equal(await badge(), 1);
+  await owner.api('delete', '/v3/news_hub/badge/');
+  assert.equal(await badge(), 0);
+  assert.equal((await feed(owner))[0].unread, false);
+});
+
+test('disabling in-app follower notifications only affects new follow Updates', async () => {
+  const owner = await new Client(server.url).signup();
+  const follower = await new Client(server.url).signup();
+  const settings = await owner.api('get', '/v3/settings/notifications/');
+  const social = settings.find((category) => category.key === 'social');
+  assert.equal(social.subcategories.find((sub) => sub.key === 'followers')
+    .channel_options.find((option) => option.channel === 'news').value, true);
+  await owner.api('create', '/v3/settings/notifications/', {
+    updated_settings: [{ section: 'social', option: 'followers', type: 'news', value: false }],
+  });
+  await follower.api('create', `/v3/users/${owner.id}/follow/`);
+  const pin = await owner.publishPin();
+  await follower.resource('AggregatedCommentResource', { pinId: pin.id, text: 'Still enabled' }, 'create');
+  const feed = await owner.api('get', '/v3/news_hub/feed/');
+  assert.deepEqual(feed.map((item) => item.override_click_url), [`/pin/${pin.id}/`]);
+});

@@ -10,7 +10,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { startServer, png, uniqueName } from '../helpers/server.js';
+import { startServer, Client, png, uniqueName } from '../helpers/server.js';
 
 let chromium;
 try { ({ chromium } = await import('playwright-core')); } catch {}
@@ -189,6 +189,41 @@ test('the Updates panel opens for an account with no activity', { skip }, async 
   await page.getByRole('button', { name: 'Updates', exact: true }).click();
   await page.getByText('Updates are on their way', { exact: true }).waitFor();
   await page.getByRole('heading', { name: 'Home', exact: true }).waitFor();
+});
+
+test('Updates shows a new follower and comment and opens the commented Pin', { skip }, async () => {
+  const owner = await new Client(base).signup();
+  const actor = await new Client(base).signup(undefined, undefined, 'Activity Tester');
+  const pin = await owner.publishPin({ title: 'Activity garden' });
+  await actor.api('create', `/v3/users/${owner.id}/follow/`);
+  await actor.resource('AggregatedCommentResource', { pinId: pin.id, text: 'Lovely garden' }, 'create');
+
+  const context = page.context();
+  const ownerPage = await context.newPage();
+  ownerPage.on('pageerror', (e) => problems.push(`page error: ${e.message.slice(0, 200)}`));
+  try {
+    await context.addCookies([...owner.cookies].map(([name, value]) => ({ name, value, url: base })));
+    await ownerPage.goto(base + '/');
+    await ownerPage.getByRole('button', { name: 'Updates', exact: true }).click();
+    await ownerPage.getByRole('link', { name: 'Activity Tester followed you' }).waitFor();
+    await ownerPage.getByRole('link', { name: 'Activity Tester commented on your Pin' }).click();
+    await ownerPage.waitForURL((url) => url.pathname === `/pin/${pin.id}/`);
+    assert.equal((await owner.resource('NewsHubBadgeResource')).news_hub_count, 0);
+
+    await ownerPage.goto(base + '/settings/notifications/');
+    const followers = ownerPage.locator('[data-test-id="notification-settings-option-followers"]');
+    await followers.getByRole('button', { name: /channel options/i }).click();
+    await followers.getByRole('checkbox', { name: 'In-app' }).uncheck();
+    const save = ownerPage.waitForResponse((res) => res.request().method() === 'POST'
+      && (res.url().includes('/v3/settings/notifications/') || (res.request().postData() || '').includes('updated_settings')));
+    await ownerPage.getByRole('button', { name: 'Save', exact: true }).click();
+    assert.ok((await save).ok());
+    const other = await new Client(base).signup();
+    await other.api('create', `/v3/users/${owner.id}/follow/`);
+    assert.equal((await owner.resource('NewsHubBadgeResource')).news_hub_count, 0);
+  } finally {
+    await ownerPage.close();
+  }
 });
 
 test('no page errors or off-site navigation happened', { skip }, () => {

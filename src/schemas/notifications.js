@@ -1,5 +1,10 @@
 // The notification settings page: categories -> subcategories -> per-channel
 // switches. Preferences are stored as "category.subcategory.channel" keys.
+export const ACTIVITY_PREFERENCES = {
+  follow: ['social', 'followers'],
+  comment: ['activity', 'comments'],
+};
+
 export const CHANNELS = [['push', 'Push'], ['email', 'Email']];
 
 export const CATEGORIES = [
@@ -21,7 +26,11 @@ export function notificationSettingsShape(prefs) {
     key,
     label,
     subcategories: subs.map(([subKey, subLabel, description]) => {
-      const options = CHANNELS.map(([channel, channelLabel]) => ({
+      const hasInApp = Object.values(ACTIVITY_PREFERENCES).some(
+        ([category, subcategory]) => category === key && subcategory === subKey,
+      );
+      const channels = hasInApp ? [...CHANNELS, ['news', 'In-app']] : CHANNELS;
+      const options = channels.map(([channel, channelLabel]) => ({
         channel,
         label: channelLabel,
         category_key: key,

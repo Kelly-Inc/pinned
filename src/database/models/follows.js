@@ -1,11 +1,16 @@
-import { db } from '../connection.js';
+import { db, transaction } from '../connection.js';
 import { currentUserId, maybeCurrentUserId } from '../context.js';
+import { recordActivity } from './activity.js';
 import { getUser } from './users.js';
 
 export function followUser(followeeId) {
   const me = currentUserId();
   if (!getUser(followeeId) || String(followeeId) === me) return false;
-  db.prepare('INSERT OR IGNORE INTO follows (follower_id, followee_id) VALUES (?, ?)').run(me, String(followeeId));
+  transaction(() => {
+    const { changes } = db.prepare('INSERT OR IGNORE INTO follows (follower_id, followee_id) VALUES (?, ?)')
+      .run(me, String(followeeId));
+    if (changes) recordActivity({ recipientId: String(followeeId), kind: 'follow' });
+  });
   return true;
 }
 

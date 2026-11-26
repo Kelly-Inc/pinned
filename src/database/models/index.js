@@ -8,3 +8,4 @@ export * from './comments.js';
 export * from './follows.js';
 export * from './uploads.js';
 export * from './settings.js';
+export * from './activity.js';

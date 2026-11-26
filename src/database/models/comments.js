@@ -1,5 +1,6 @@
-import { db } from '../connection.js';
+import { db, transaction } from '../connection.js';
 import { currentUserId } from '../context.js';
+import { recordActivity } from './activity.js';
 import { getPin } from './pins.js';
 import { LIMITS } from '../../config.js';
 
@@ -14,10 +15,15 @@ export function listComments(pinId) {
 /** Add a comment. Returns the new comment, or null if empty / pin missing. */
 export function addComment(pinId, text) {
   const body = String(text || '').trim().slice(0, LIMITS.commentChars);
-  if (!body || !getPin(pinId)) return null;
-  const { lastInsertRowid } = db.prepare('INSERT INTO comments (user_id, pin_id, text) VALUES (?, ?, ?)')
-    .run(currentUserId(), String(pinId), body);
-  return getComment(lastInsertRowid);
+  if (!body) return null;
+  return transaction(() => {
+    const pin = getPin(pinId);
+    if (!pin) return null;
+    const { lastInsertRowid } = db.prepare('INSERT INTO comments (user_id, pin_id, text) VALUES (?, ?, ?)')
+      .run(currentUserId(), pin.id, body);
+    recordActivity({ recipientId: pin.pinner_id, kind: 'comment', pinId: pin.id, commentId: lastInsertRowid });
+    return getComment(lastInsertRowid);
+  });
 }
 
 /** The author or the pin's owner may delete a comment. */
