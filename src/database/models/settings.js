@@ -15,6 +15,11 @@ export function extraSettings(user) {
   return parseJson(user?.settings || '{}', {}) || {};
 }
 
+// Older versions stored the Privacy and data checkbox under a different key.
+export function searchPrivacyEnabled(settings) {
+  return !!(settings.opt_in_private_account || (settings.exclude_from_search ?? settings.hide_from_search_engines));
+}
+
 export function getSettings(userId = currentUserId()) {
   const user = getUser(userId);
   if (!user) return null;
@@ -23,6 +28,8 @@ export function getSettings(userId = currentUserId()) {
   return {
     ...PRIVACY_DEFAULTS,
     ...extra,
+    search_privacy_enabled: searchPrivacyEnabled(extra),
+    can_edit_search_privacy: !extra.opt_in_private_account,
     id: user.id,
     username: user.username,
     full_name: user.full_name,

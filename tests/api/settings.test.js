@@ -43,6 +43,25 @@ test('other settings toggles are stored', async () => {
   assert.equal(s.surface_tag, undefined);
 });
 
+test('search privacy applies to the owner’s profile and board URLs', async () => {
+  const owner = await new Client(server.url).signup();
+  const visitor = await new Client(server.url).signup();
+  await owner.resource('UserSettingsResource', { hide_from_search_engines: true }, 'update');
+  const viewer = await owner.api('get', '/v3/users/settings/');
+  assert.equal(viewer.search_privacy_enabled, true);
+  for (const path of [`/${owner.username}/`, `/${owner.username}/ideas/`]) {
+    assert.equal((await visitor.raw(path)).headers.get('x-robots-tag'), 'noindex');
+  }
+  assert.equal((await visitor.raw(`/${visitor.username}/`)).headers.get('x-robots-tag'), null);
+  await owner.resource('UserSettingsResource', { exclude_from_search: false }, 'update');
+  assert.equal((await visitor.raw(`/${owner.username}/`)).headers.get('x-robots-tag'), null);
+});
+
+test('AI content tuner receives the local topic list', async () => {
+  const c = await new Client(server.url).signup();
+  assert.deepEqual(await c.api('get', '/v3/users/settings/gen_ai/'), []);
+});
+
 test('notification settings load and save', async () => {
   const c = await new Client(server.url).signup();
   let cats = await c.api('get', '/v3/settings/notifications/');
@@ -60,16 +79,16 @@ test('notification settings load and save', async () => {
 test('privacy settings provide the fields rendered by each platform', async () => {
   const c = await new Client(server.url).signup();
   const viewer = await c.api('get', '/v3/users/me/viewer/');
-  assert.equal(viewer.allow_mentions, true);
-  await c.resource('UserSettingsResource', { allow_mentions: false }, 'update');
+  assert.equal(viewer.opt_out_gen_ai_model_training, true);
+  await c.resource('UserSettingsResource', { opt_out_gen_ai_model_training: false }, 'update');
   for (const [platform, type] of [['desktop', 'checkbox'], ['mobile', 'toggles']]) {
     const sections = await c.api('get', '/v3/users/privacy_data_settings/', { platform });
     const fields = sections.flatMap((section) => {
-      assert.ok(Array.isArray(section.description));
+      assert.ok(section.description === undefined || Array.isArray(section.description));
       return section.settings_field;
     });
     assert.ok(fields.every((field) => field.id && field.label_desktop && field.label_mobile && field.setting_type === type));
-    assert.equal(fields.find((field) => field.name === 'allow_mentions').value, false);
+    assert.equal(fields.find((field) => field.name === 'opt_out_gen_ai_model_training').value, false);
   }
 });
 

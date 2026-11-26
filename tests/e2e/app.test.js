@@ -130,16 +130,20 @@ test('settings pages render content', { skip }, async () => {
 test('privacy tab renders its controls and saves changes', { skip }, async () => {
   await page.goto(base + '/settings/edit-profile/');
   await page.getByText('Privacy and data', { exact: true }).click();
-  const mentions = page.getByRole('checkbox', { name: /Mentions/i });
-  await mentions.waitFor();
-  assert.equal(await mentions.isChecked(), true);
-  await mentions.uncheck();
+  const partnerInfo = page.getByRole('checkbox', { name: /Use of partner info/i });
+  await partnerInfo.waitFor();
+  assert.equal(await partnerInfo.isChecked(), false);
+  await partnerInfo.check();
+  await page.getByRole('button', { name: 'Reset', exact: true }).click();
+  await page.getByRole('button', { name: 'Reset changes', exact: true }).click();
+  assert.equal(await partnerInfo.isChecked(), false);
+  await partnerInfo.check();
   const saved = page.waitForResponse((res) => res.url().includes('/resource/UserSettingsResource/update/'));
   await page.getByRole('button', { name: 'Save', exact: true }).click();
   assert.ok((await saved).ok());
   await page.reload();
-  await mentions.waitFor();
-  assert.equal(await mentions.isChecked(), false);
+  await partnerInfo.waitFor();
+  assert.equal(await partnerInfo.isChecked(), true);
 });
 
 test('edit profile shows the real name and saves changes', { skip }, async () => {

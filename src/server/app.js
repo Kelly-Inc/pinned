@@ -6,7 +6,7 @@ import { handleApi, isApiPath } from '../api/index.js';
 import { receivePinImage } from '../cdn/pinImages.js';
 import { receiveAvatar } from '../cdn/avatars.js';
 import { shellFor } from '../client/shell/cache.js';
-import { runAs } from '../database/index.js';
+import { extraSettings, getUserByUsername, runAs, searchPrivacyEnabled } from '../database/index.js';
 import { sendHtml, sendJson, redirect } from '../util/http.js';
 import { log } from '../util/logger.js';
 import { PORT, LOG_REQUESTS } from '../config.js';
@@ -20,6 +20,13 @@ async function route(req, res, url, pathname) {
   }
 
   if (await handleAuth(req, res, pathname)) return;
+
+  // Profile and board URLs both start with the owner's username.
+  const profilePath = /^\/([a-z0-9_]{3,30})(?:\/[^/]+)?\/?$/i.exec(pathname);
+  if (profilePath && !isApiPath(pathname)) {
+    const owner = getUserByUsername(profilePath[1]);
+    if (owner && searchPrivacyEnabled(extraSettings(owner))) res.setHeader('X-Robots-Tag', 'noindex');
+  }
 
   const user = sessionUser(req);
   if (!user) {
