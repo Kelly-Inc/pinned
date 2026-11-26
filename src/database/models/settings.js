@@ -3,6 +3,7 @@
 import { currentUserId } from '../context.js';
 import { badRequest } from '../../util/errors.js';
 import { parseJson } from '../../util/json.js';
+import { PRIVACY_DEFAULTS } from '../../schemas/privacy.js';
 import { LIMITS } from '../../config.js';
 import { getUser, getUserByUsername, setUsername, setAvatar, updateProfile, setSettingsJson } from './users.js';
 
@@ -20,6 +21,7 @@ export function getSettings(userId = currentUserId()) {
   const extra = extraSettings(user);
   const [first, ...rest] = String(user.full_name || '').split(/\s+/);
   return {
+    ...PRIVACY_DEFAULTS,
     ...extra,
     id: user.id,
     username: user.username,

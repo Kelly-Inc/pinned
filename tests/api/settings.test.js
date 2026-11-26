@@ -57,10 +57,24 @@ test('notification settings load and save', async () => {
   assert.equal(email.value, false);
 });
 
-test('privacy settings and pronouns are served', async () => {
+test('privacy settings provide the fields rendered by each platform', async () => {
   const c = await new Client(server.url).signup();
-  const privacy = await c.api('get', '/v3/users/privacy_data_settings/');
-  assert.ok(privacy.length >= 1 && privacy[0].settings_field.length >= 1);
+  const viewer = await c.api('get', '/v3/users/me/viewer/');
+  assert.equal(viewer.allow_mentions, true);
+  await c.resource('UserSettingsResource', { allow_mentions: false }, 'update');
+  for (const [platform, type] of [['desktop', 'checkbox'], ['mobile', 'toggles']]) {
+    const sections = await c.api('get', '/v3/users/privacy_data_settings/', { platform });
+    const fields = sections.flatMap((section) => {
+      assert.ok(Array.isArray(section.description));
+      return section.settings_field;
+    });
+    assert.ok(fields.every((field) => field.id && field.label_desktop && field.label_mobile && field.setting_type === type));
+    assert.equal(fields.find((field) => field.name === 'allow_mentions').value, false);
+  }
+});
+
+test('pronouns are served', async () => {
+  const c = await new Client(server.url).signup();
   const pronouns = await c.api('get', '/v3/users/pronouns/');
   assert.ok(pronouns.some((p) => p.label === 'they/them'));
 });

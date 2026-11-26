@@ -119,6 +119,10 @@ These are easy to break. Each was a real bug.
   categories → `subcategories` → `channel_options` (`{channel, category_key,
   subcategory_key, value}`). Saving sends `updated_settings: [{type, section,
   option, value}]`.
+- **Privacy and data** expects section descriptions as arrays of paragraphs.
+  The client requests `platform: "desktop"` for `checkbox` fields with
+  `label_desktop`, or `"mobile"` for `toggles` with `label_mobile` and
+  `header_mobile`. Field names are the keys used to save preferences.
 - **Shop-the-look** (`/v3/visual_search/stela/pins/:id/module/`) must return
   `[]`. Returning the feed blanks the pin page.
 - **Dark mode** is gated by the `dweb_dark_mode` experiment (enabled in
@@ -176,9 +180,6 @@ Most of this work is reverse-engineering. The workflow that works:
 
 Roughly in priority order:
 
-- [ ] **Settings → Privacy and data renders blank** even though
-  `/v3/users/privacy_data_settings/` returns sections. Something else it needs
-  is missing; find it with the debugging workflow.
 - [ ] **Notifications feed and messages:** nothing is implemented; the bell and
   inbox are empty.
 - [ ] **Related pins ("More like this")** under a pin: `RelatedPinFeedResource`
