@@ -35,6 +35,8 @@ export function pinShape(pin, { origin, withBoard = true } = {}) {
     repin_count: counts.saves,
     save_count: counts.saves,
     like_count: counts.likes,
+    favorited_by_me: !!counts.favorited,
+    favorite_user_count: counts.favorites,
     comment_count: counts.comments,
     total_reaction_count: counts.likes,
     reaction_counts: counts.likes ? { 1: counts.likes } : {},

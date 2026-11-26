@@ -125,6 +125,8 @@ These are easy to break. Each was a real bug.
   `header_mobile`. Field names are the keys used to save preferences.
 - **Related pins on desktop** load from `RelatedModulesResource` with
   `options.pin_id`. The closeup renders ordinary grid pins in the response.
+- **Profile Pins filters** arrive as comma-separated `flag_filters`. Favorites
+  use the pin star (`/v3/pins/:id/favorite/`) and are independent of reactions.
 - **Shop-the-look** (`/v3/visual_search/stela/pins/:id/module/`) must return
   `[]`. Returning the feed blanks the pin page.
 - **Dark mode** is gated by the `dweb_dark_mode` experiment (enabled in
@@ -187,8 +189,6 @@ Roughly in priority order:
 - [ ] **Search:** title and description substring match only. No typeahead
   suggestions (`AdvancedTypeaheadResource` returns empty items; the item shape
   is unverified) and no filters.
-- [ ] **Profile Pins-tab filters** ("Favorites", "Created by you") are ignored:
-  `/v3/users/:user/filtered/pins/` returns everything.
 - [ ] **Video pins:** only image uploads are handled.
 - [ ] **Board sections, collaborators and archive** are not supported.
 - [ ] **Pin page cosmetics:** there are two back arrows, and a "Find it. Love it.

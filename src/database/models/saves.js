@@ -1,4 +1,4 @@
-import { db } from '../connection.js';
+import { db, transaction } from '../connection.js';
 import { currentUserId } from '../context.js';
 import { getPin } from './pins.js';
 import { ownBoard, setBoardCover } from './boards.js';
@@ -16,10 +16,25 @@ export function savePin({ pinId, boardId = null }) {
 }
 
 export function unsavePin(pinId) {
-  db.prepare('DELETE FROM saves WHERE user_id = ? AND pin_id = ?').run(currentUserId(), String(pinId));
+  transaction(() => {
+    db.prepare('DELETE FROM saves WHERE user_id = ? AND pin_id = ?').run(currentUserId(), String(pinId));
+    if (getPin(pinId)?.pinner_id !== currentUserId()) setFavorite(pinId, false);
+  });
   return true;
 }
 
 export function isSaved(pinId) {
   return !!db.prepare('SELECT 1 FROM saves WHERE user_id = ? AND pin_id = ?').get(currentUserId(), String(pinId));
+}
+
+export function setFavorite(pinId, favorite) {
+  const pin = getPin(pinId);
+  if (!pin) return false;
+  if (favorite) {
+    if (pin.pinner_id !== currentUserId() && !isSaved(pinId)) return false;
+    db.prepare('INSERT OR IGNORE INTO pin_favorites (user_id, pin_id) VALUES (?, ?)').run(currentUserId(), pin.id);
+  } else {
+    db.prepare('DELETE FROM pin_favorites WHERE user_id = ? AND pin_id = ?').run(currentUserId(), pin.id);
+  }
+  return true;
 }

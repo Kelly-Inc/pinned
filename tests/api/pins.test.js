@@ -122,3 +122,26 @@ test('a closeup requests matching pins through RelatedModulesResource', async ()
   const pins = await c.resource('RelatedModulesResource', { pin_id: seed.id, page_size: 12 });
   assert.deepEqual(pins.map((pin) => pin.id), [match.id]);
 });
+
+test('profile favorites and created pins can be filtered separately or together', async () => {
+  const c = await new Client(server.url).signup();
+  const other = await new Client(server.url).signup();
+  const own = await c.publishPin();
+  const saved = await other.publishPin();
+  await c.resource('RepinResource', { pin_id: saved.id }, 'create');
+  const favorite = `/v3/pins/${saved.id}/favorite/`;
+  await c.api('create', favorite);
+  await c.api('create', favorite);
+  const filtered = (flags) => c.api('get', '/v3/users/me/filtered/pins/', { flag_filters: flags });
+  const starred = await filtered('FAVORITED');
+  assert.deepEqual(starred.map((pin) => pin.id), [saved.id]);
+  assert.equal(starred[0].favorite_user_count, 1);
+  assert.equal(starred[0].favorited_by_me, true);
+  assert.deepEqual((await filtered('CREATED_BY_ME')).map((pin) => pin.id), [own.id]);
+  assert.deepEqual(await filtered('FAVORITED,CREATED_BY_ME'), []);
+  await c.api('create', `/v3/pins/${own.id}/favorite/`);
+  assert.deepEqual((await filtered('FAVORITED,CREATED_BY_ME')).map((pin) => pin.id), [own.id]);
+  assert.equal((await other.resource('PinResource', { id: saved.id })).favorited_by_me, false);
+  await c.api('delete', favorite);
+  assert.deepEqual((await filtered('FAVORITED')).map((pin) => pin.id), [own.id]);
+});

@@ -68,9 +68,8 @@ test('sign up lands on the home feed', { skip }, async () => {
   await page.fill('input[name=full_name]', 'Eve Tester');
   await page.fill('input[name=password]', 'password123');
   await page.click('button[type=submit]');
-  await page.waitForTimeout(3000);
-  assert.equal(new URL(page.url()).pathname, '/');
-  assert.ok(await page.$('[data-test-id="header-profile"]'), 'header rendered');
+  await page.waitForURL(base + '/');
+  await page.locator('[data-test-id="header-profile"]').waitFor();
 });
 
 test('publish a pin through the pin builder', { skip }, async () => {

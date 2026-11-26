@@ -21,15 +21,18 @@ export function listPins({ limit = 100, offset = 0 } = {}) {
 }
 
 /** A profile's Pins tab: pins the user created plus pins they saved, newest first. */
-export function profilePins(userId, limit = 500) {
+export function profilePins(userId, limit = 500, filters = []) {
   return db.prepare(`
     SELECT p.*, MAX(t.at) AS sort_at FROM pins p JOIN (
       SELECT id AS pin_id, created_at AS at FROM pins WHERE pinner_id = ?
       UNION ALL
       SELECT pin_id, created_at AS at FROM saves WHERE user_id = ?
     ) t ON t.pin_id = p.id
+    WHERE (NOT ? OR p.pinner_id = ?)
+      AND (NOT ? OR EXISTS (SELECT 1 FROM pin_favorites f WHERE f.pin_id = p.id AND f.user_id = ?))
     GROUP BY p.id ORDER BY sort_at DESC, p.rowid DESC LIMIT ?
-  `).all(String(userId), String(userId), limit);
+  `).all(userId, userId, Number(filters.includes('CREATED_BY_ME')), userId,
+    Number(filters.includes('FAVORITED')), userId, limit);
 }
 
 export function boardPins(boardId, limit = 200) {
@@ -89,9 +92,11 @@ export function pinCounts(pinId) {
   const id = String(pinId);
   return db.prepare(`SELECT
       (SELECT COUNT(*) FROM likes WHERE pin_id = ?) AS likes,
+      (SELECT COUNT(*) FROM pin_favorites WHERE pin_id = ?) AS favorites,
+      EXISTS (SELECT 1 FROM pin_favorites WHERE pin_id = ? AND user_id = ?) AS favorited,
       (SELECT COUNT(*) FROM comments WHERE pin_id = ?) AS comments,
       (SELECT COUNT(*) FROM saves s JOIN pins p ON p.id = s.pin_id
-        WHERE s.pin_id = ? AND s.user_id != p.pinner_id) AS saves`).get(id, id, id);
+        WHERE s.pin_id = ? AND s.user_id != p.pinner_id) AS saves`).get(id, id, id, currentUserId(), id, id);
 }
 
 export function pinTags(pin) {
