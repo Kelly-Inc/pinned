@@ -60,3 +60,13 @@ export function firstAccount() {
 export function countUsers() {
   return db.prepare('SELECT COUNT(*) AS n FROM users WHERE password_hash IS NOT NULL').get().n;
 }
+
+// Search local account names for message recipients without exposing private fields.
+export function searchMessageRecipients(term, limit) {
+  return db.prepare(`
+    SELECT * FROM users
+    WHERE id != ? AND password_hash IS NOT NULL
+      AND (instr(lower(username), lower(?)) > 0 OR instr(lower(full_name), lower(?)) > 0)
+    ORDER BY lower(username) LIMIT ?
+  `).all(currentUserId(), term, term, limit);
+}

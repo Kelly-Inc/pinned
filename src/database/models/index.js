@@ -9,3 +9,4 @@ export * from './follows.js';
 export * from './uploads.js';
 export * from './settings.js';
 export * from './activity.js';
+export * from './conversations.js';

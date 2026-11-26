@@ -43,6 +43,7 @@ export function userShape(user, origin) {
     image_medium_url: avatar,
     image_small_url: avatar,
     is_ads_only_profile: false,
+    should_show_messaging: !!user.password_hash,
     is_verified_merchant: false,
     verified_identity: {},
   };

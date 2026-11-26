@@ -24,6 +24,7 @@ export function patchBootData(data, { origin, user }) {
       full_name: user.full_name,
       image_medium_url: avatarUrl(user, origin),
       image_large_url: avatarUrl(user, origin),
+      should_show_messaging: true,
       is_verified_merchant: false,
       verified_identity: {},
     },

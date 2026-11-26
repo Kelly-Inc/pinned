@@ -127,6 +127,10 @@ These are easy to break. Each was a real bug.
   `options.pin_id`. The closeup renders ordinary grid pins in the response.
 - **Profile Pins filters** arrive as comma-separated `flag_filters`. Favorites
   use the pin star (`/v3/pins/:id/favorite/`) and are independent of reactions.
+- **Messages** use `ConversationsResource` for lists and new conversations,
+  `ConversationMessagesResource` for messages, and `/v3/conversations/:id/`
+  for metadata. Set `should_show_messaging` on both the viewer and local
+  recipient profiles to enable the Messages and Message buttons.
 - **Shop-the-look** (`/v3/visual_search/stela/pins/:id/module/`) must return
   `[]`. Returning the feed blanks the pin page.
 - **Dark mode** is gated by the `dweb_dark_mode` experiment (enabled in
@@ -184,8 +188,10 @@ Most of this work is reverse-engineering. The workflow that works:
 
 Roughly in priority order:
 
-- [ ] **Notifications feed and messages:** Updates shows new follows and
-  comments with a badge. Other activity types and messaging are open.
+- [ ] **Notifications and messages:** Updates shows new follows and comments
+  with a badge. Local conversations support text and pin attachments, inbox
+  badges and message history. Other activity types, contact requests and
+  conversation management are open.
 - [ ] **Search:** local text matching and Pin title suggestions are supported.
   Rich filters, board-specific suggestions and search history are open.
 - [ ] **Video pins:** only image uploads are handled.

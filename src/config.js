@@ -36,4 +36,5 @@ export const LIMITS = {
   aboutChars: 500,
   profileFieldChars: 100,
   commentChars: 2000,
+  messageChars: 2000,
 };

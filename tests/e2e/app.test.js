@@ -37,20 +37,25 @@ let base;
 const problems = [];
 const imageFile = path.join(os.tmpdir(), `pinned-e2e-${process.pid}.png`);
 
-before(async () => {
-  if (skip) return;
-  server = await startServer();
-  base = server.url;
-  fs.writeFileSync(imageFile, png(400, 600, [60, 120, 200]));
-  browser = await chromium.launch({ executablePath: findChromium(), args: ['--no-sandbox'] });
+async function newPage() {
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   // Nothing should ever load a pinterest.com page.
   await context.route(/^https?:\/\/([a-z]+\.)?pinterest\.com/, (route) => {
     if (route.request().resourceType() === 'document') problems.push(`navigated off-site: ${route.request().url()}`);
     route.abort();
   });
-  page = await context.newPage();
+  const page = await context.newPage();
   page.on('pageerror', (e) => problems.push(`page error: ${e.message.slice(0, 200)}`));
+  return page;
+}
+
+before(async () => {
+  if (skip) return;
+  server = await startServer();
+  base = server.url;
+  fs.writeFileSync(imageFile, png(400, 600, [60, 120, 200]));
+  browser = await chromium.launch({ executablePath: findChromium(), args: ['--no-sandbox'] });
+  page = await newPage();
 });
 
 after(async () => {
@@ -223,6 +228,50 @@ test('Updates shows a new follower and comment and opens the commented Pin', { s
     assert.equal((await owner.resource('NewsHubBadgeResource')).news_hub_count, 0);
   } finally {
     await ownerPage.close();
+  }
+});
+
+test('two local accounts can exchange messages in Chromium', { skip }, async () => {
+  const sender = await new Client(base).signup(undefined, undefined, 'Message Sender');
+  const recipient = await new Client(base).signup(undefined, undefined, 'Message Recipient');
+  const senderPage = await newPage();
+  const recipientPage = await newPage();
+  try {
+    for (const [client, tab] of [[sender, senderPage], [recipient, recipientPage]]) {
+      await tab.context().addCookies([...client.cookies].map(([name, value]) => ({ name, value, url: base })));
+    }
+    await senderPage.goto(`${base}/${recipient.username}/_profile/`);
+    await senderPage.getByRole('button', { name: 'Message', exact: true }).click();
+    await senderPage.getByRole('textbox', { name: 'Add a message' }).fill('Hello from the profile');
+    const [sent] = await Promise.all([
+      senderPage.waitForResponse((res) => res.url().includes('/resource/ConversationsResource/create/')),
+      senderPage.getByRole('button', { name: 'Send', exact: true }).click(),
+    ]);
+    assert.ok(sent.ok());
+
+    await recipientPage.goto(base + '/');
+    await recipientPage.getByRole('button', { name: /Messages.*1 notification/i }).click();
+    const [history] = await Promise.all([
+      recipientPage.waitForResponse((res) => res.url().includes('/resource/ConversationMessagesResource/get/')),
+      recipientPage.getByRole('button', { name: /Hello from the profile/ }).click(),
+    ]);
+    assert.ok(history.ok());
+    await recipientPage.getByRole('button', { name: 'Hello from the profile', exact: true }).waitFor();
+    assert.equal((await recipient.resource('ConversationsResource'))[0].unread, 0);
+    await recipientPage.getByRole('textbox', { name: /Type a message/ }).fill('Reply from the inbox');
+    const [reply] = await Promise.all([
+      recipientPage.waitForResponse((res) => res.url().includes('/resource/ConversationMessagesResource/create/')),
+      recipientPage.getByRole('button', { name: 'Send message to conversation' }).click(),
+    ]);
+    assert.ok(reply.ok());
+
+    await senderPage.goto(base + '/');
+    await senderPage.getByRole('button', { name: /Messages.*1 notification/i }).click();
+    await senderPage.getByRole('button', { name: /Reply from the inbox/ }).click();
+    await senderPage.getByRole('button', { name: 'Reply from the inbox', exact: true }).waitFor();
+  } finally {
+    await senderPage.context().close();
+    await recipientPage.context().close();
   }
 });
 

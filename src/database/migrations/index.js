@@ -7,5 +7,6 @@ import m0005 from './0005_uploads.js';
 import m0006 from './0006_indexes.js';
 import m0007 from './0007_pin_favorites.js';
 import m0008 from './0008_activity_notifications.js';
+import m0009 from './0009_conversations.js';
 
-export const migrations = [m0001, m0002, m0003, m0004, m0005, m0006, m0007, m0008];
+export const migrations = [m0001, m0002, m0003, m0004, m0005, m0006, m0007, m0008, m0009];
