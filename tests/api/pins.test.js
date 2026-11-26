@@ -113,3 +113,12 @@ test('shop-the-look modules are empty lists, not the feed', async () => {
   const pin = await c.publishPin();
   assert.deepEqual(await c.api('get', `/v3/visual_search/stela/pins/${pin.id}/module/`), []);
 });
+
+test('a closeup requests matching pins through RelatedModulesResource', async () => {
+  const c = await new Client(server.url).signup();
+  const seed = await c.publishPin({ title: 'Hydrangea planting' });
+  const match = await c.publishPin({ title: 'Hydrangea pruning' });
+  await c.publishPin({ title: 'Ceramic vase' });
+  const pins = await c.resource('RelatedModulesResource', { pin_id: seed.id, page_size: 12 });
+  assert.deepEqual(pins.map((pin) => pin.id), [match.id]);
+});

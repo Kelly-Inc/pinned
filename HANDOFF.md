@@ -123,6 +123,8 @@ These are easy to break. Each was a real bug.
   The client requests `platform: "desktop"` for `checkbox` fields with
   `label_desktop`, or `"mobile"` for `toggles` with `label_mobile` and
   `header_mobile`. Field names are the keys used to save preferences.
+- **Related pins on desktop** load from `RelatedModulesResource` with
+  `options.pin_id`. The closeup renders ordinary grid pins in the response.
 - **Shop-the-look** (`/v3/visual_search/stela/pins/:id/module/`) must return
   `[]`. Returning the feed blanks the pin page.
 - **Dark mode** is gated by the `dweb_dark_mode` experiment (enabled in
@@ -182,9 +184,6 @@ Roughly in priority order:
 
 - [ ] **Notifications feed and messages:** nothing is implemented; the bell and
   inbox are empty.
-- [ ] **Related pins ("More like this")** under a pin: `RelatedPinFeedResource`
-  exists, but the pin page was never seen calling it. Find what it actually
-  requests.
 - [ ] **Search:** title and description substring match only. No typeahead
   suggestions (`AdvancedTypeaheadResource` returns empty items; the item shape
   is unverified) and no filters.
